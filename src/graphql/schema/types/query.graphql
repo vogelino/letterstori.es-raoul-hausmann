@@ -1,5 +1,8 @@
 type Query {
-  counter: Counter
+  allEntities: [Entity]
+  allDocuments: [Document]
+  entity(id: ID!): Entity
+  document(id: ID!): Document
 }
 
 schema {

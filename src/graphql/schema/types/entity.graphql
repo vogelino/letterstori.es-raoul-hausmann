@@ -1,0 +1,10 @@
+type Entity {
+  id: ID!
+  firstName: String
+  lastName: String
+  birthYear: String
+  deathYear: String
+  lifespanString: String
+  gender: String
+  url: String
+}

@@ -4,9 +4,10 @@ import { mergeTypes } from 'merge-graphql-schemas';
 import resolvers from './resolvers';
 
 import query from './types/query.graphql';
-import counter from './types/counter.graphql';
+import entity from './types/entity.graphql';
+import document from './types/document.graphql';
 
-const typeDefs = mergeTypes([counter, query]);
+const typeDefs = mergeTypes([entity, document, query]);
 
 const schema = makeExecutableSchema({
 	typeDefs,

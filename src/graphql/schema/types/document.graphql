@@ -1,0 +1,19 @@
+type Document {
+  id: ID!
+  creators: [Entity]
+  senders: [Entity]
+  recipients: [Entity]
+  title: String
+  date: String
+  type: String
+  height: Int
+  width: Int
+  materialOrTechnique: String
+  description: String
+  transcription: String
+  annotations: String
+  convolute: String
+  partsAmount: Int
+  entityMentions: [Entity]
+  location: String
+}
