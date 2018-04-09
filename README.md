@@ -1,4 +1,7 @@
-# graphql-apollo-boilerplate
+# Raoul Hausmann Correspondence (GraphQL Server)
+This is the GraphQL server of [vogelino/raoul-hausmann-correspondence](https://github.com/vogelino/raoul-hausmann-correspondence). This is based on the boilerplate [chryb/graphql-apollo-boilerplate](https://github.com/chryb/graphql-apollo-boilerplate).
+
+----
 
 > Simple GraphQL, Apollo Backend w/ Webpack, ES6, ESLint, Hot-Reload, GraphQL Schema Language Template
 
