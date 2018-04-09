@@ -18,7 +18,7 @@
 		"build": "NODE_ENV=prod webpack",
 		"lint": "eslint --ext .js",
 		"lint-fix": "eslint --fix",
-		"start": "npm run build && node dist/bundle.js"
+		"start": "node dist/bundle.js"
 	},
 	"dependencies": {
 		"apollo-server-express": "^1.1.2",
