@@ -1,5 +1,4 @@
 import express from 'express';
-import path from 'path';
 import chalk from 'chalk';
 import bodyParser from 'body-parser';
 import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
@@ -10,9 +9,7 @@ import config from './config';
 
 const app = express();
 
-app.use(cors());
-app.use('/', express.static(path.resolve(__dirname, '/../public')));
-app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }));
+app.use('/graphql', cors(corsOptions), bodyParser.json(), graphqlExpress({ schema }));
 app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
 
 app.listen(config.PORT, () => {
