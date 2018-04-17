@@ -26,6 +26,7 @@ const resolvers = {
 		recipients: resolveEntityReferenceList,
 		entityMentions: resolveEntityReferenceList,
 		date: ({ date }) => new Date(date),
+		files: ({ files }) => files,
 	},
 };
 

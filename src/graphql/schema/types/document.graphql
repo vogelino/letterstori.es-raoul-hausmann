@@ -16,4 +16,5 @@ type Document {
   partsAmount: Int
   entityMentions: [Entity]
   location: String
+  files: [String]
 }
