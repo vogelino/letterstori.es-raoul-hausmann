@@ -9,7 +9,8 @@ import config from './config';
 
 const app = express();
 
-app.use('/graphql', cors(), bodyParser.json(), graphqlExpress({ schema }));
+app.use(cors());
+app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }));
 app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
 
 app.listen(config.PORT, () => {

@@ -1,5 +1,5 @@
 type Document {
-  id: ID!
+  id: String!
   creators: [Entity]
   senders: [Entity]
   recipients: [Entity]

@@ -1,5 +1,5 @@
 type Entity {
-  id: ID!
+  id: String!
   firstName: String
   lastName: String
   birthYear: String

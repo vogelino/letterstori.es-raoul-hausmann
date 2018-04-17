@@ -1,8 +1,8 @@
 type Query {
   allEntities: [Entity]
   allDocuments: [Document]
-  entity(id: ID!): Entity
-  document(id: ID!): Document
+  entity(id: String!): Entity
+  document(id: String!): Document
 }
 
 schema {
