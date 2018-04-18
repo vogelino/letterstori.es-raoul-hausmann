@@ -1,4 +1,5 @@
 /* eslint-disable global-require */
+require('dotenv').config();
 const webpack = require('webpack');
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
@@ -63,7 +64,7 @@ module.exports = [
 			new webpack.HotModuleReplacementPlugin(),
 			new webpack.NamedModulesPlugin(),
 			new webpack.NoEmitOnErrorsPlugin(),
+			new webpack.EnvironmentPlugin(process.env),
 		],
 	},
 ];
-
