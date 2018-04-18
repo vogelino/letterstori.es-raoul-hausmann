@@ -1,25 +1,24 @@
+import camelCase from 'camelcase';
+import { plural } from 'pluralize';
 import entitiesData from '../../../data/entities.json';
 import documentsData from '../../../data/documents.json';
+import storiesData from '../../../data/stories.json';
 
 const resolveEntityReferenceList = (doc) => doc.creators.map((id) =>
 	entitiesData.find((entity) => id === entity.id)
 );
 
+const createGettersByType = (type, dataSet) => ({
+	[type]: (_, { id }) => dataSet.find((item) => id === item.id),
+	[camelCase(`all-${plural(type)}`)]: () => dataSet,
+});
+
 const resolvers = {
-	Query: {
-		document(_, { id }) {
-			return documentsData.find((doc) => id === doc.id);
-		},
-		allDocuments() {
-			return documentsData;
-		},
-		entity(_, { id }) {
-			return entitiesData.find((entity) => id === entity.id);
-		},
-		allEntities() {
-			return entitiesData;
-		},
-	},
+	Query: Object.assign({},
+		createGettersByType('document', documentsData),
+		createGettersByType('entity', entitiesData),
+		createGettersByType('story', storiesData),
+	),
 	Document: {
 		creators: resolveEntityReferenceList,
 		senders: resolveEntityReferenceList,

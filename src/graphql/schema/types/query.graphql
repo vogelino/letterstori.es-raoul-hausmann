@@ -3,6 +3,8 @@ type Query {
   allDocuments: [Document]
   entity(id: String!): Entity
   document(id: String!): Document
+  allStories: [Story]
+  story(id: String!): Story
 }
 
 schema {
