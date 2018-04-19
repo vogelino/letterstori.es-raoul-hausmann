@@ -56,7 +56,24 @@
 		"files": [
 			"149435_1.jpg",
 			"149435_2.jpg"
-		]
+		],
+		"story": {
+			"id": "rh-hh-relationship-extreme",
+			"elements": [
+				{
+					"id": "main-context",
+					"annotation": "context",
+					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige."
+				},
+				{
+					"id": "the-first-degradation",
+					"type": "annotation",
+					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige.",
+					"pageIndex": 0,
+					"points": "281.015625 431.417969 281.015625 480.238281 40.078125 480.238281 40.078125 330.291016 182 330.291016 182 292 611 292 611 431.417969 281.015625 431.417969"
+				}
+			]
+		}
 	},
 	{
 		"id": "163142",
