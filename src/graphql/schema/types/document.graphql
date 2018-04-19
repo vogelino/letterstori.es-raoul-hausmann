@@ -20,4 +20,18 @@ type Document {
   filesSmall: [String]
   filesMedium: [String]
   filesLarge: [String]
+  story: DocumentStory
+}
+
+type DocumentStory {
+	id: String!
+	elements: [StoryElement]
+}
+
+type StoryElement {
+	id: String!
+	type: String!
+	content: String!
+	pageIndex: Int
+	points: String
 }
