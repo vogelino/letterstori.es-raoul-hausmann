@@ -1,9 +1,30 @@
 [
 	{
 		"id": "rh-hh-relationship-extreme",
-		"title": "Raoul Hausmann und  Hannah Höch –  Eine Beziehung in Extremen",
+		"title": "Raoul Hausmann und Hannah Höch – Eine Beziehung in Extremen",
 		"summary": "Short summary of the storyline unfolding in this correspondence.",
-		"description": "Praesent a ipsum a risus ultricies iaculis eget maximus elit.  Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit.  Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit.  Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.",
+		"description": "Praesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.",
 		"color": "#ED008C"
+	},
+	{
+		"id": "der-vater-sohn-beziehung",
+		"title": "Raoul Hausmann und Victor Hausmann – Der Vater-Sohn Beziehung",
+		"summary": "Short summary of the storyline unfolding in this correspondence.",
+		"description": "Praesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.",
+		"color": "#6ABD37"
+	},
+	{
+		"id": "gefallen-nach-gefallen",
+		"title": "Raoul Hausmann und Erlfiede Hauseman – Gefallen nach Gefallen",
+		"summary": "Short summary of the storyline unfolding in this correspondence.",
+		"description": "Praesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.",
+		"color": "#FB8700"
+	},
+	{
+		"id": "machismus-liberalismus",
+		"title": "Raoul Hausmann – Machismus oder Liberalismus",
+		"summary": "Short summary of the storyline unfolding in this correspondence.",
+		"description": "Praesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.\n\nPraesent a ipsum a risus ultricies iaculis eget maximus elit. Nunc quis orci nec felis scelerisque rhoncus. Nulla eget porta tortor.",
+		"color": "#B001FE"
 	}
 ]
