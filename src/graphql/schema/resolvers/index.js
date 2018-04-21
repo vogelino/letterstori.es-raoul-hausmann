@@ -4,7 +4,7 @@ import entitiesData from '../../../data/entities.json';
 import documentsData from '../../../data/documents.json';
 import storiesData from '../../../data/stories.json';
 
-const resolveEntityReferenceList = (doc) => doc.creators.map((id) =>
+const resolveEntityReferenceList = (docKey) => (doc) => (doc[docKey] || []).map((id) =>
 	entitiesData.find((entity) => id === entity.id)
 );
 
@@ -20,10 +20,10 @@ const resolvers = {
 		createGettersByType('story', storiesData),
 	),
 	Document: {
-		creators: resolveEntityReferenceList,
-		senders: resolveEntityReferenceList,
-		recipients: resolveEntityReferenceList,
-		entityMentions: resolveEntityReferenceList,
+		creators: resolveEntityReferenceList('creators'),
+		senders: resolveEntityReferenceList('senders'),
+		recipients: resolveEntityReferenceList('recipients'),
+		entityMentions: resolveEntityReferenceList('entityMentions'),
 		date: ({ date }) => new Date(date),
 		thumbnail: ({ files }) => `${process.env.IMAGE_SMALL_BASE_URL}${files[0]}`,
 		filesLarge: ({ files }) => files.map((file) =>

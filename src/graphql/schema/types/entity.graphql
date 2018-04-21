@@ -1,6 +1,7 @@
 type Entity {
   id: String!
   firstName: String
+  name: String
   lastName: String
   birthYear: String
   deathYear: String
