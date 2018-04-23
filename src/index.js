@@ -9,8 +9,16 @@ import config from './config';
 
 const app = express();
 
-app.use(cors());
-app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }));
+const whitelist = ['http://localhost:3000'];
+const corsOptions = {
+	origin(origin, callback) {
+		const originIsWhitelisted = whitelist.indexOf(origin) !== -1;
+		callback(null, originIsWhitelisted);
+	},
+	credentials: true,
+};
+app.use(cors(corsOptions));
+app.use('/graphql', bodyParser.json(), graphqlExpress({ schema, context: {} }));
 app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
 
 app.listen(config.PORT, () => {
