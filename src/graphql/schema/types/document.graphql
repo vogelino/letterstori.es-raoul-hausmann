@@ -25,6 +25,10 @@ type Document {
 
 type DocumentStory {
 	id: String!
+  title: String!
+  summary: String!
+  description: String!
+  color: String!
 	elements: [StoryElement]
 }
 

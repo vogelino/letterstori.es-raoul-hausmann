@@ -32,6 +32,11 @@ const resolvers = {
 			`${process.env.IMAGE_MEDIUM_BASE_URL}${file}`),
 		filesSmall: ({ files }) => files.map((file) =>
 			`${process.env.IMAGE_SMALL_BASE_URL}${file}`),
+		story: ({ story }) => (story ? Object.assign(
+			{},
+			story,
+			(storiesData.find(({ id }) => id === story.id) || {})
+		) : null),
 	},
 };
 
