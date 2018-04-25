@@ -17,9 +17,7 @@ type Document {
   entityMentions: [Entity]
   location: String
   thumbnail: String
-  filesSmall: [String]
-  filesMedium: [String]
-  filesLarge: [String]
+  files: [String]
   story: DocumentStory
 }
 
