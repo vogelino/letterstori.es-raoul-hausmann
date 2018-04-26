@@ -27,6 +27,8 @@ type DocumentStory {
   summary: String!
   description: String!
   color: String!
+  nextDocumentInStory: String
+  prevDocumentInStory: String
 	elements: [StoryElement]
 }
 

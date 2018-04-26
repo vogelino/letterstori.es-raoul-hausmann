@@ -13,6 +13,17 @@ const createGettersByType = (type, dataSet) => ({
 	[camelCase(`all-${plural(type)}`)]: () => dataSet,
 });
 
+const findSiblingDocumentsInStory = (docId, storyId) => {
+	const storyDocuments = documentsData.filter(({ story }) => story && story.id === storyId);
+	const indexOfDoc = storyDocuments.findIndex(({ id }) => id === docId);
+	const prevDocument = storyDocuments[indexOfDoc - 1] || storyDocuments[storyDocuments.length - 1];
+	const nextDocument = storyDocuments[indexOfDoc + 1] || storyDocuments[0];
+	return {
+		prevDocumentInStory: prevDocument.id,
+		nextDocumentInStory: nextDocument.id,
+	};
+};
+
 const resolvers = {
 	Query: Object.assign({},
 		createGettersByType('document', documentsData),
@@ -27,10 +38,11 @@ const resolvers = {
 		date: ({ date }) => new Date(date),
 		thumbnail: ({ files }) => `${process.env.IMAGE_SMALL_BASE_URL}${files[0]}`,
 		files: ({ files }) => files,
-		story: ({ story }) => (story ? Object.assign(
+		story: ({ story, id }) => (story ? Object.assign(
 			{},
 			story,
-			(storiesData.find(({ id }) => id === story.id) || {})
+			(storiesData.find(({ idInStories }) => idInStories === story.id) || {}),
+			findSiblingDocumentsInStory(id, story.id),
 		) : null),
 	},
 };
