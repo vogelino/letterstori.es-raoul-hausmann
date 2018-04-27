@@ -35,7 +35,7 @@ const resolvers = {
 		senders: resolveEntityReferenceList('senders'),
 		recipients: resolveEntityReferenceList('recipients'),
 		entityMentions: resolveEntityReferenceList('entityMentions'),
-		date: ({ date }) => new Date(date),
+		date: ({ date }) => new Date(date).toISOString(),
 		thumbnail: ({ files }) => `${process.env.IMAGE_SMALL_BASE_URL}${files[0]}`,
 		files: ({ files }) => files,
 		story: ({ story, id: docId }) => {
