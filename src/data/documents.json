@@ -56,46 +56,7 @@
 		"files": [
 			"149435_1.jpg",
 			"149435_2.jpg"
-		],
-		"story": {
-			"id": "rh-hh-relationship-extreme",
-			"elements": [
-				{
-					"id": "main-context",
-					"type": "context",
-					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige."
-				},
-				{
-					"id": "the-first-degradation",
-					"type": "annotation",
-					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige.",
-					"pageIndex": 0,
-					"points": "281.015625 431.417969 281.015625 480.238281 40.078125 480.238281 40.078125 330.291016 182 330.291016 182 292 611 292 611 431.417969 281.015625 431.417969"
-				},
-				{
-					"id": "main-context-2",
-					"type": "context",
-					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige."
-				},
-				{
-					"id": "the-first-degradation-2",
-					"type": "annotation",
-					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige.",
-					"pageIndex": 1,
-					"points": "281.015625 431.417969 281.015625 480.238281 40.078125 480.238281 40.078125 330.291016 182 330.291016 182 292 611 292 611 431.417969 281.015625 431.417969"
-				},
-				{
-					"id": "main-context-3",
-					"type": "context",
-					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige."
-				},
-				{
-					"id": "main-context-4",
-					"type": "context",
-					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige."
-				}
-			]
-		}
+		]
 	},
 	{
 		"id": "163142",
@@ -1118,7 +1079,36 @@
 			"207232_7.jpg",
 			"207232_8.jpg",
 			"207232_9.jpg"
-		]
+		],
+		"story": {
+			"id": "rh-hh-relationship-extreme",
+			"elements": [
+				{
+					"id": "main-context",
+					"type": "context",
+					"content": "Nach einem Streit in Person versucht Hausmann in dem Brief versöhnlichere Töne anzuschlagen und Höch davon zu überzeugen der Beziehung eine Chance zu geben."
+				},
+				{
+					"id": "premonition",
+					"type": "annotation",
+					"content": "Sieh mal, auf dem Weg, auf dem Du jetzt bist, wirst Du mit Sicherheit nicht zu mir zurückfinden, Du siehst das nur noch nicht, daß Du, wenn Du mich erst 4 Wochen so entbehren kannst, so fremd, ja feindlich, daß Du mich dann überhaupt entbehren kannst.",
+					"pageIndex": 1,
+					"points": "34.72 386 34.72 733 184.72 733 184.72 673 777.72 673 777.72 386 34.72 386"
+				},
+				{
+					"id": "main-context2",
+					"type": "context",
+					"content": "Die Tonlage hält zwei Absätze an. Im weiteren Verlauf des Briefes externalisiert Hausmann die Probleme in der Beziehung auf Höchs Familie - im speziellen Ihren Vater der Ihr \"Leben verdorben\" hat - und versucht sich an einer psychoanalytischen Laieninterpretationen Ihrer Gefühle."
+				},
+				{
+					"id": "mansplaining",
+					"type": "annotation",
+					"content": "Ich weiß jetzt, warum Du nicht mütterlich bist, warum Du die Türen zumachst - fühle doch, daß ich Dich liebe! Nicht blind liebe - schwer wird es schon noch sein - aber ich will Dir anders drüber helfen als bisher! Fühle doch, daß Du dazuhelfen mußt! Daß Du mich brauchen mußt! Wünsch Dir doch, daß ich bei Dir wäre!",
+					"pageIndex": 6,
+					"points": "176.72 481 176.72 529 25.72 529 25.72 943 768.72 943 768.72 481 176.72 481"
+				}
+			]
+		}
 	},
 	{
 		"id": "207236",

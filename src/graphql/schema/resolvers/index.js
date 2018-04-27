@@ -13,6 +13,17 @@ const createGettersByType = (type, dataSet) => ({
 	[camelCase(`all-${plural(type)}`)]: () => dataSet,
 });
 
+const findSiblingDocumentsInStory = (docId, storyId) => {
+	const storyDocuments = documentsData.filter(({ story }) => story && story.id === storyId);
+	const indexOfDoc = storyDocuments.findIndex(({ id }) => id === docId);
+	const prevDocument = storyDocuments[indexOfDoc - 1] || storyDocuments[storyDocuments.length - 1];
+	const nextDocument = storyDocuments[indexOfDoc + 1] || storyDocuments[0];
+	return {
+		prevDocumentInStory: prevDocument.id,
+		nextDocumentInStory: nextDocument.id,
+	};
+};
+
 const resolvers = {
 	Query: Object.assign({},
 		createGettersByType('document', documentsData),
@@ -26,17 +37,18 @@ const resolvers = {
 		entityMentions: resolveEntityReferenceList('entityMentions'),
 		date: ({ date }) => new Date(date),
 		thumbnail: ({ files }) => `${process.env.IMAGE_SMALL_BASE_URL}${files[0]}`,
-		filesLarge: ({ files }) => files.map((file) =>
-			`${process.env.IMAGE_LARGE_BASE_URL}${file}`),
-		filesMedium: ({ files }) => files.map((file) =>
-			`${process.env.IMAGE_MEDIUM_BASE_URL}${file}`),
-		filesSmall: ({ files }) => files.map((file) =>
-			`${process.env.IMAGE_SMALL_BASE_URL}${file}`),
-		story: ({ story }) => (story ? Object.assign(
-			{},
-			story,
-			(storiesData.find(({ id }) => id === story.id) || {})
-		) : null),
+		files: ({ files }) => files,
+		story: ({ story, id: docId }) => {
+			if (!story) return null;
+			const storyDetails = storiesData.find(({ id: idInStories }) => idInStories === story.id);
+			const extendedStory = Object.assign(
+				{},
+				story,
+				(storyDetails || {}),
+				findSiblingDocumentsInStory(docId, story.id),
+			);
+			return extendedStory;
+		},
 	},
 };
 
