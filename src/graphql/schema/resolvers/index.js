@@ -38,12 +38,17 @@ const resolvers = {
 		date: ({ date }) => new Date(date),
 		thumbnail: ({ files }) => `${process.env.IMAGE_SMALL_BASE_URL}${files[0]}`,
 		files: ({ files }) => files,
-		story: ({ story, id }) => (story ? Object.assign(
-			{},
-			story,
-			(storiesData.find(({ idInStories }) => idInStories === story.id) || {}),
-			findSiblingDocumentsInStory(id, story.id),
-		) : null),
+		story: ({ story, id: docId }) => {
+			if (!story) return null;
+			const storyDetails = storiesData.find(({ id: idInStories }) => idInStories === story.id);
+			const extendedStory = Object.assign(
+				{},
+				story,
+				(storyDetails || {}),
+				findSiblingDocumentsInStory(docId, story.id),
+			);
+			return extendedStory;
+		},
 	},
 };
 
