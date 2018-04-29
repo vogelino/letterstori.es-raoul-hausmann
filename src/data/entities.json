@@ -10,6 +10,15 @@
 		"url": "http://d-nb.info/gnd/118547143"
 	},
 	{
+		"firstName": "Elfriede",
+		"lastName": "Hausmann-Schaeffer",
+		"id": "elfriede-hausmann",
+		"birthYear": "1876",
+		"deathYear": "1952",
+		"lifespanString": "1876 - 1952",
+		"gender": "weiblich"
+	},
+	{
 		"firstName": "Hannah",
 		"lastName": "Höch",
 		"id": "hannah-hoech",
@@ -19,30 +28,57 @@
 		"gender": "weiblich"
 	},
 	{
-		"id": "robert-sennecke",
-		"name": "Robert Sennecke"
+		"firstName": "Fritz",
+		"lastName": "Warschauer",
+		"id": "fritz-warschauer",
+		"gender": "männlich"
 	},
 	{
-		"id": "otto-schmalhausen",
-		"name": "Otto Schmalhausen"
+		"firstName": "Vera",
+		"lastName": "Broido",
+		"id": "vera-broido",
+		"birthYear": "1907",
+		"deathYear": "2004",
+		"lifespanString": "1907 - 2004",
+		"gender": "weiblich",
+		"url": "http://d-nb.info/gnd/123367913"
 	},
 	{
-		"firstName": "John",
-		"lastName": "Heartfield",
-		"id": "john-heartfield",
-		"birthYear": "1891",
-		"deathYear": "1968",
-		"lifespanString": "1891 - 1968",
+		"firstName": "Vera",
+		"lastName": "Hausmann",
+		"id": "vera-hausmann",
+		"birthYear": "1907",
+		"deathYear": "1992",
+		"lifespanString": "1907 - 1992",
+		"gender": "weiblich"
+	},
+	{
+		"firstName": "Ernst",
+		"lastName": "Schoen",
+		"id": "suedwestdeutscher-rundfunk-ag-ernst-schoen",
+		"birthYear": "1894",
+		"deathYear": "1960",
+		"lifespanString": "1894 - 1960",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118547437"
+		"url": "http://d-nb.info/gnd/12229386X"
 	},
 	{
-		"lastName": "Malik-Verlag",
-		"id": "malik-verlag",
-		"birthYear": "1917",
-		"deathYear": "1947",
-		"lifespanString": "1917 - 1947",
-		"url": "http://d-nb.info/gnd/44419-4"
+		"firstName": "Daniel",
+		"lastName": "Broido",
+		"id": "daniel-broido",
+		"birthYear": "1903",
+		"deathYear": "1990",
+		"lifespanString": "1903 - 1990",
+		"gender": "männlich"
+	},
+	{
+		"firstName": "Hedwig",
+		"lastName": "Hausmann",
+		"id": "hedwig-hausmann",
+		"birthYear": "1893",
+		"deathYear": "1972",
+		"lifespanString": "1893 - 1972",
+		"gender": "weiblich"
 	},
 	{
 		"firstName": "Johannes",
@@ -55,6 +91,86 @@
 		"url": "http://d-nb.info/gnd/118505394"
 	},
 	{
+		"lastName": "Qualität Ware und Werbung. Zeitschrift für Wirtschaftliche Bildung und Qualitätsproduktion",
+		"id": "werbung",
+		"birthYear": "1920",
+		"deathYear": "1933"
+	},
+	{
+		"firstName": "Carl Ernst",
+		"lastName": "Hinkefuß",
+		"id": "carl-ernst-hinkefuss-qualitaet-ware",
+		"birthYear": "1881",
+		"deathYear": "1970",
+		"lifespanString": "1881 - 1970",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/127333444"
+	},
+	{
+		"id": "museum-der-stadt-stettin",
+		"name": "Museum der Stadt Stettin"
+	},
+	{
+		"id": "das-deutsche-lichtbild",
+		"name": "Das Deutsche Lichtbild"
+	},
+	{
+		"firstName": "Jan",
+		"lastName": "Tschichold",
+		"id": "jan-tschichold",
+		"birthYear": "1902",
+		"deathYear": "1974",
+		"lifespanString": "1902 - 1974",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118624350"
+	},
+	{
+		"id": "bruno-schultz-das-deutsche-lichtbild",
+		"name": "Bruno Schultz / Das Deutsche Lichtbild"
+	},
+	{
+		"lastName": "Astro-Gesellschaft m.b.H",
+		"id": "astro-gesellschaft-m-b-h"
+	},
+	{
+		"lastName": "Städtisches Museum Stettin",
+		"id": "museum-der-stadt-stettin-horst-wachs",
+		"url": "http://d-nb.info/gnd/7631825-4"
+	},
+	{
+		"id": "naturkundemuseum-horst-wachs",
+		"name": "Naturkundemuseum / Horst Wachs"
+	},
+	{
+		"firstName": "Wolfgang",
+		"lastName": "Herrmann",
+		"id": "kunstbibliothek-wolfgang-herrmann",
+		"birthYear": "1899",
+		"deathYear": "1995",
+		"lifespanString": "1899 - 1995",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/116752149"
+	},
+	{
+		"lastName": "Staatliche Kunstbibliothek",
+		"id": "staatliche-kunstbibliothek",
+		"url": "http://d-nb.info/gnd/16316552-X"
+	},
+	{
+		"firstName": "Friedrich Willy",
+		"lastName": "Frerk",
+		"id": "photofreund-halbmonatsschrift-friedrich-willy-frerk",
+		"birthYear": "1886",
+		"deathYear": "1960",
+		"lifespanString": "1886 - 1960",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/105654957"
+	},
+	{
+		"lastName": "Verlag Robert & Bruno Schultz",
+		"id": "verlag-robert-and-bruno-schultz"
+	},
+	{
 		"firstName": "George",
 		"lastName": "Grosz",
 		"id": "george-grosz",
@@ -64,42 +180,58 @@
 		"gender": "männlich"
 	},
 	{
-		"firstName": "Richard",
-		"lastName": "Huelsenbeck",
-		"id": "richard-huelsenbeck",
-		"birthYear": "1892",
-		"deathYear": "1974",
-		"lifespanString": "1892 - 1974",
+		"lastName": "Verlag Robert & Bruno Schultz",
+		"id": "bruno-schultz-verlag-robert-and-bruno-schultz"
+	},
+	{
+		"firstName": "Ernst",
+		"lastName": "Fuhrmann",
+		"id": "ernst-fuhrmann",
+		"birthYear": "1886",
+		"deathYear": "1956",
+		"lifespanString": "1886 - 1956",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118554387"
+		"url": "http://d-nb.info/gnd/118818902"
 	},
 	{
-		"id": "h-ehrlich",
-		"name": "H. Ehrlich"
+		"lastName": "Südwestdeutscher Rundfunk AG Frankfurt am Main",
+		"id": "westdeutscher-rundfunk-ag",
+		"birthYear": "1923",
+		"lifespanString": "1923 gegr."
 	},
 	{
-		"firstName": "Wieland",
-		"lastName": "Herzfelde",
-		"id": "wieland-herzfelde",
-		"birthYear": "1896",
-		"deathYear": "1988",
-		"lifespanString": "1896 - 1988",
+		"firstName": "Simon",
+		"lastName": "Mosel",
+		"id": "simon-mosel",
 		"gender": "männlich"
 	},
 	{
-		"lastName": "DADA-Bewegung",
-		"id": "dada-bewegung",
-		"birthYear": "1917",
-		"deathYear": "1922"
+		"firstName": "Hanns",
+		"lastName": "Fischer",
+		"id": "hanns-fischer",
+		"birthYear": "1888",
+		"lifespanString": "*1888",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/12852250X"
 	},
 	{
-		"firstName": "Francis",
-		"lastName": "Picabia",
-		"id": "francis-picabia",
-		"birthYear": "1879",
-		"deathYear": "1953",
-		"lifespanString": "1879 - 1953",
-		"gender": "männlich"
+		"firstName": "Adolf",
+		"lastName": "Behne",
+		"id": "adolf-behne",
+		"birthYear": "1885",
+		"deathYear": "1948",
+		"lifespanString": "1885 - 1948",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/119191164"
+	},
+	{
+		"lastName": "E. Prager-Verlag / E. Prager",
+		"id": "e-prager-verlag"
+	},
+	{
+		"lastName": "Carl Zeiss Jena",
+		"id": "carl-zeiss",
+		"url": "http://d-nb.info/gnd/90682-7"
 	},
 	{
 		"firstName": "Kurt",
@@ -112,85 +244,69 @@
 		"url": "http://d-nb.info/gnd/118612301"
 	},
 	{
-		"id": "el-lissitzky",
-		"name": "El Lissitzky"
+		"firstName": "Franz Wilhelm",
+		"lastName": "Seiwert",
+		"id": "franz-wilhelm-seiwert",
+		"birthYear": "1894",
+		"deathYear": "1933",
+		"lifespanString": "1894 - 1933",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118612972"
 	},
 	{
-		"id": "erwin-piscator",
-		"name": "Erwin Piscator"
+		"firstName": "Gustav",
+		"lastName": "Könitzer",
+		"id": "gustav-koenitzer",
+		"birthYear": "1863",
+		"lifespanString": "*1863-?",
+		"gender": "männlich"
 	},
 	{
-		"firstName": "Otto",
-		"lastName": "Freundlich",
-		"id": "otto-freundlich",
-		"birthYear": "1878",
+		"firstName": "Curt",
+		"lastName": "Glaser",
+		"id": "staatliche-kunstbibliothek-curt-glaser",
+		"birthYear": "1879",
 		"deathYear": "1943",
-		"lifespanString": "1878 - 1943",
+		"lifespanString": "1879 - 1943",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118535366"
+		"url": "http://d-nb.info/gnd/118942271"
 	},
 	{
-		"lastName": "Atelier Roscher",
-		"id": "atelier-roscher"
+		"lastName": "Der Bücherkreis G.m.b.H.",
+		"id": "der-buecherkreis-g-m-b-h",
+		"birthYear": "1924",
+		"deathYear": "1933",
+		"lifespanString": "1924 - 1933"
 	},
 	{
-		"firstName": "Helma",
-		"lastName": "Schwitters",
-		"id": "helma-schwitters",
-		"gender": "weiblich",
-		"url": "http://d-nb.info/gnd/117431648"
-	},
-	{
-		"id": "kaethe-steinitz",
-		"name": "Käthe Steinitz"
-	},
-	{
-		"lastName": "Unbekannt",
-		"id": "unbekannt"
-	},
-	{
-		"firstName": "Franz",
-		"lastName": "Jung",
-		"id": "franz-jung",
-		"birthYear": "1888",
-		"deathYear": "1963",
-		"lifespanString": "1888 - 1963",
+		"firstName": "Curt",
+		"lastName": "Glaser",
+		"id": "curt-glaser",
+		"birthYear": "1879",
+		"deathYear": "1943",
+		"lifespanString": "1879 - 1943",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/101156421"
+		"url": "http://d-nb.info/gnd/118942271"
 	},
 	{
-		"lastName": "Raoul Hausmann, Walter Heisig",
-		"id": "walter-heisig"
+		"firstName": "László",
+		"lastName": "Moholy-Nagy",
+		"id": "laszlo-moholy-nagy",
+		"birthYear": "1895",
+		"deathYear": "1946",
+		"lifespanString": "1895 - 1946",
+		"gender": "männlich"
 	},
 	{
-		"lastName": "Librairie Six",
-		"id": "librairie-six"
+		"firstName": "Walter",
+		"lastName": "Stern",
+		"id": "walter-stern"
 	},
 	{
-		"firstName": "Man",
-		"lastName": "Ray",
-		"id": "man-ray",
-		"birthYear": "1890",
-		"deathYear": "1976",
-		"lifespanString": "1890 - 1976",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118598694"
-	},
-	{
-		"id": "theo-van-doesburg",
-		"name": "Theo van Doesburg"
-	},
-	{
-		"id": "kunsthandlung-otto-burchard",
-		"name": "Kunsthandlung  Otto Burchard"
-	},
-	{
-		"id": "tristan-tzara",
-		"name": "Tristan Tzara"
-	},
-	{
-		"id": "adolf-knoblauch",
-		"name": "Adolf Knoblauch"
+		"firstName": "Eberhard",
+		"lastName": "Rogge",
+		"id": "eberhard-rogge",
+		"gender": "männlich"
 	},
 	{
 		"firstName": "Salomo",
@@ -203,190 +319,67 @@
 		"url": "http://d-nb.info/gnd/118586076"
 	},
 	{
-		"firstName": "Walter",
-		"lastName": "Mehring",
-		"id": "walter-mehring",
-		"birthYear": "1896",
-		"deathYear": "1981",
-		"lifespanString": "1896 - 1981",
+		"lastName": "Folkwang-Auriga-Verlag",
+		"id": "ernst-fuhrmann-folkwang-auriga-verlag",
+		"birthYear": "1923",
+		"deathYear": "1932",
+		"lifespanString": "1923 - 1932",
+		"url": "http://d-nb.info/gnd/4516038-7"
+	},
+	{
+		"firstName": "Hans",
+		"lastName": "Richter",
+		"id": "hans-richter",
+		"birthYear": "1888",
+		"deathYear": "1976",
+		"lifespanString": "1888 - 1976",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118579983"
+		"url": "http://d-nb.info/gnd/118600435"
 	},
 	{
-		"lastName": "Neue Berliner Zeitung, Das 12-Uhr-Blatt",
-		"id": "neue-berliner-zeitung"
+		"firstName": "Walter",
+		"lastName": "Stern",
+		"id": "westdeutscher-rundfunk-ag-walter-stern"
 	},
 	{
-		"lastName": "Neue Berliner Zeitung, Das 12-Uhr-Blatt",
-		"id": "das-12-uhr-blatt"
+		"lastName": "Photographische Rundschau",
+		"id": "photographische-rundschau"
 	},
 	{
 		"firstName": "Franz",
-		"lastName": "Ehrlich",
-		"id": "franz-ehrlich",
-		"birthYear": "1907",
-		"deathYear": "1984",
-		"lifespanString": "1907 - 1984",
-		"gender": "männlich"
-	},
-	{
-		"firstName": "Jefim",
-		"lastName": "Golyscheff",
-		"id": "jefim-golyscheff",
-		"birthYear": "1897",
-		"deathYear": "1970",
-		"lifespanString": "1897 - 1970",
-		"gender": "männlich"
-	},
-	{
-		"id": "graphisches-kabinett-j-b-neumann",
-		"name": "Graphisches Kabinett J. B. Neumann"
-	},
-	{
-		"id": "ludwig-meidner",
-		"name": "Ludwig Meidner"
-	},
-	{
-		"firstName": "Erich",
-		"lastName": "Heckel",
-		"id": "erich-heckel",
-		"birthYear": "1883",
-		"deathYear": "1970",
-		"lifespanString": "1883 - 1970",
-		"gender": "männlich"
-	},
-	{
-		"id": "franz-pfemfert",
-		"name": "Franz Pfemfert"
-	},
-	{
-		"firstName": "Walter (Walt)",
-		"lastName": "Whitman",
-		"id": "walter-walt-whitman",
-		"birthYear": "1819",
-		"deathYear": "1892",
-		"lifespanString": "1819 - 1892",
-		"gender": "männlich"
-	},
-	{
-		"firstName": "Alfred",
-		"lastName": "Mombert",
-		"id": "alfred-mombert",
-		"birthYear": "1872",
-		"deathYear": "1942",
-		"lifespanString": "1872 - 1942",
+		"lastName": "Jung",
+		"id": "franz-jung",
+		"birthYear": "1888",
+		"deathYear": "1963",
+		"lifespanString": "1888 - 1963",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118583417"
+		"url": "http://d-nb.info/gnd/101156421"
 	},
 	{
-		"id": "paul-adler",
-		"name": "Paul Adler"
+		"lastName": "Carl Zeiss Jena",
+		"id": "carl-zeiss-abt-fuer-photographie",
+		"url": "http://d-nb.info/gnd/90682-7"
 	},
 	{
-		"id": "walter-asch",
-		"name": "Walter Asch"
+		"id": "theo-van-doesburg",
+		"name": "Theo van Doesburg"
 	},
 	{
-		"id": "maria-uhden",
-		"name": "Maria Uhden"
-	},
-	{
-		"id": "alfred-doeblin",
-		"name": "Alfred Döblin"
-	},
-	{
-		"id": "friedrich-hoech-jun",
-		"name": "Friedrich Höch jun."
-	},
-	{
-		"firstName": "Elfriede",
-		"lastName": "Hausmann-Schaeffer",
-		"id": "elfriede-hausmann",
-		"birthYear": "1876",
-		"deathYear": "1952",
-		"lifespanString": "1876 - 1952",
-		"gender": "weiblich"
-	},
-	{
-		"id": "erna-haehne",
-		"name": "Erna Hähne"
-	},
-	{
-		"id": "grete-koenig-geb-hoech",
-		"name": "Grete König (geb. Höch)"
-	},
-	{
-		"id": "else-michaelson",
-		"name": "Else Michaelson"
-	},
-	{
-		"id": "oskar-moll",
-		"name": "Oskar Moll"
-	},
-	{
-		"id": "rudolf-adrian-dietrich",
-		"name": "Rudolf Adrian Dietrich"
-	},
-	{
-		"firstName": "Otto",
-		"lastName": "Dix",
-		"id": "otto-dix",
-		"birthYear": "1891",
-		"deathYear": "1969",
-		"lifespanString": "1891 - 1969",
+		"firstName": "Werner",
+		"lastName": "Graeff",
+		"id": "werner-graeff",
+		"birthYear": "1901",
+		"deathYear": "1978",
+		"lifespanString": "1901 - 1978",
 		"gender": "männlich"
 	},
 	{
-		"firstName": "Viking",
-		"lastName": "Eggeling",
-		"id": "viking-eggeling",
-		"birthYear": "1880",
-		"deathYear": "1925",
-		"lifespanString": "1880 - 1925",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118529048"
-	},
-	{
-		"id": "conrad-felixmueller",
-		"name": "Conrad Felixmüller"
-	},
-	{
-		"firstName": "Rudolf",
-		"lastName": "Schlichter",
-		"id": "rudolf-schlichter",
-		"birthYear": "1890",
-		"deathYear": "1955",
-		"lifespanString": "1890 - 1955",
+		"firstName": "Gustav",
+		"lastName": "Könitzer",
+		"id": "gustav-koenitzer-vorst-d-berl-typogr-ges",
+		"birthYear": "1863",
+		"lifespanString": "*1863-?",
 		"gender": "männlich"
-	},
-	{
-		"id": "filippo-marinetti",
-		"name": "Filippo Marinetti"
-	},
-	{
-		"id": "maria-marc",
-		"name": "Maria Marc"
-	},
-	{
-		"id": "liubomir-micic",
-		"name": "Liubomir Micic"
-	},
-	{
-		"firstName": "László",
-		"lastName": "Moholy-Nagy",
-		"id": "laszlo-moholy-nagy",
-		"birthYear": "1895",
-		"deathYear": "1946",
-		"lifespanString": "1895 - 1946",
-		"gender": "männlich"
-	},
-	{
-		"id": "ernst-neumann",
-		"name": "Ernst Neumann"
-	},
-	{
-		"id": "w-neumann",
-		"name": "W. Neumann"
 	},
 	{
 		"firstName": "Eryk",
@@ -408,8 +401,246 @@
 		"url": "http://d-nb.info/gnd/118816691"
 	},
 	{
-		"id": "paul-steegemann",
-		"name": "Paul Steegemann"
+		"id": "ullstein-verlag",
+		"name": "Ullstein Verlag"
+	},
+	{
+		"firstName": "Wolfgang",
+		"lastName": "Herrmann",
+		"id": "staatliche-kunstbibliothek-wolfgang-herrmann",
+		"birthYear": "1899",
+		"deathYear": "1995",
+		"lifespanString": "1899 - 1995",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/116752149"
+	},
+	{
+		"lastName": "Kunstverein Hamburg",
+		"id": "kunstverein-in-hamburg",
+		"birthYear": "1817",
+		"lifespanString": "*1817 (gegründet)"
+	},
+	{
+		"lastName": "Berliner Typographische Gesellschaft",
+		"id": "vorstand-der-berliner-typographischen-gesellschaft-papierzeitung",
+		"url": "http://d-nb.info/gnd/1022637-0"
+	},
+	{
+		"firstName": "Ludwig",
+		"lastName": "Mies van der Rohe",
+		"id": "ludwig-mies-van-der-rohe",
+		"birthYear": "1886",
+		"deathYear": "1969",
+		"lifespanString": "1886 - 1969",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118582291"
+	},
+	{
+		"lastName": "Photo Porst",
+		"id": "photo-porst",
+		"birthYear": "1919",
+		"url": "http://d-nb.info/gnd/4772603-9"
+	},
+	{
+		"id": "grete-koenig-geb-hoech",
+		"name": "Grete König (geb. Höch)"
+	},
+	{
+		"firstName": "I.",
+		"lastName": "Rona",
+		"id": "i-rona",
+		"lifespanString": "Lebensdaten nicht ermittelt"
+	},
+	{
+		"lastName": "Optisch-Mechanische-Industrie-Anstalt Hugo Meyer & Co.",
+		"id": "optisch-mechanische-industrie-anstalt-hugo-meyer-and-co",
+		"birthYear": "1896",
+		"deathYear": "1945",
+		"lifespanString": "1896 - 1945",
+		"url": "http://d-nb.info/gnd/7854975-9"
+	},
+	{
+		"firstName": "Rolf",
+		"lastName": "Mayr",
+		"id": "rolf-mayr",
+		"birthYear": "1899",
+		"deathYear": "1961",
+		"lifespanString": "1899 - 1961",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/116973617"
+	},
+	{
+		"firstName": "Bruno",
+		"lastName": "Kaufmann",
+		"id": "bruno-kaufmann"
+	},
+	{
+		"firstName": "Anna",
+		"lastName": "Mankiewitz",
+		"id": "anna-mankiewitz",
+		"gender": "weiblich"
+	},
+	{
+		"firstName": "Carl",
+		"lastName": "Haeberlin",
+		"id": "carl-haeberlin",
+		"birthYear": "1870",
+		"deathYear": "1954",
+		"lifespanString": "1870 - 1954",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/11936283X"
+	},
+	{
+		"id": "atlantis-verlag-g-m-b-h",
+		"name": "Atlantis-Verlag G.m.b.H."
+	},
+	{
+		"lastName": "IG-Farbenindustrie-AG Agfa",
+		"id": "agfa",
+		"url": "http://d-nb.info/gnd/118660-7"
+	},
+	{
+		"firstName": "Dela",
+		"lastName": "Blakmar",
+		"id": "dela-blakmar",
+		"birthYear": "1897",
+		"deathYear": "1989",
+		"lifespanString": "1897 - 1989",
+		"gender": "weiblich"
+	},
+	{
+		"firstName": "Fritz",
+		"lastName": "Matthies-Masuren",
+		"id": "photographische-rundschau-fritz-matthies-masuren",
+		"birthYear": "1873",
+		"deathYear": "1938",
+		"lifespanString": "1873 - 1938",
+		"gender": "männlich"
+	},
+	{
+		"id": "central-european-news-service-holland-redaktion",
+		"name": "Central European News Service / Holland-Redaktion"
+	},
+	{
+		"lastName": "Gebrauchsgraphik, Monatsschrift zur Förderung künstlerischer Reklame",
+		"id": "hermann-karl-frenzel-gebrauchsgraphik-monatsschrift"
+	},
+	{
+		"firstName": "César",
+		"lastName": "Domela",
+		"id": "cesar-domela-nieuwenhuis",
+		"birthYear": "1900",
+		"deathYear": "1992",
+		"lifespanString": "1900 - 1992",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118638823"
+	},
+	{
+		"id": "friedrich-hoech-jun",
+		"name": "Friedrich Höch jun."
+	},
+	{
+		"lastName": "Remington-Schreibmaschinen GmbH",
+		"id": "firma-remington-schreibmaschinen-gmbh"
+	},
+	{
+		"firstName": "Wilhelm",
+		"lastName": "Boehm",
+		"id": "wilhelm-boehm",
+		"gender": "männlich"
+	},
+	{
+		"firstName": "Richard",
+		"lastName": "Huelsenbeck",
+		"id": "richard-huelsenbeck",
+		"birthYear": "1892",
+		"deathYear": "1974",
+		"lifespanString": "1892 - 1974",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118554387"
+	},
+	{
+		"id": "sommerburg",
+		"name": "Sommerburg"
+	},
+	{
+		"lastName": "Reichspatentamt Berlin",
+		"id": "reichspatentamt-berlin"
+	},
+	{
+		"firstName": "Peter",
+		"lastName": "Suhrkamp",
+		"id": "peter-suhrkamp-verlag-ullstein",
+		"birthYear": "1891",
+		"deathYear": "1959",
+		"lifespanString": "1891 - 1959",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118619977"
+	},
+	{
+		"firstName": "August",
+		"lastName": "Tschinkel",
+		"id": "august-tschinkel",
+		"birthYear": "1905",
+		"deathYear": "1983",
+		"lifespanString": "1905 - 1983",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/130167355"
+	},
+	{
+		"lastName": "Müller & Kiepenheuer Verlag",
+		"id": "mueller-and-kiepenheuer-verlag",
+		"url": "http://d-nb.info/gnd/102960794X"
+	},
+	{
+		"id": "erwin-piscator",
+		"name": "Erwin Piscator"
+	},
+	{
+		"lastName": "Photo Copie GmbH",
+		"id": "photo-copie-g-m-b-h",
+		"url": "http://d-nb.info/gnd/16313216-1"
+	},
+	{
+		"lastName": "Photohaus Max Klinke",
+		"id": "photohaus-max-klinke"
+	},
+	{
+		"id": "gustav-kemman",
+		"name": "Gustav Kemman"
+	},
+	{
+		"firstName": "Erich",
+		"lastName": "Auerbach",
+		"id": "erich-auerbach",
+		"birthYear": "1892",
+		"deathYear": "1957",
+		"lifespanString": "1892 - 1957",
+		"gender": "männlich"
+	},
+	{
+		"firstName": "Hanns",
+		"lastName": "Hörbiger",
+		"id": "hanns-hoerbiger",
+		"birthYear": "1860",
+		"deathYear": "1931",
+		"lifespanString": "1860 - 1931",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118552147"
+	},
+	{
+		"id": "handelsvertretung-der-udssr-in-de-foto-kino-abt",
+		"name": "Handelsvertretung der UdSSR in De. / Foto-Kino-Abt."
+	},
+	{
+		"firstName": "Otto",
+		"lastName": "Freundlich",
+		"id": "otto-freundlich",
+		"birthYear": "1878",
+		"deathYear": "1943",
+		"lifespanString": "1878 - 1943",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118535366"
 	},
 	{
 		"firstName": "Willy",
@@ -422,260 +653,83 @@
 		"url": "http://d-nb.info/gnd/126629838"
 	},
 	{
-		"id": "ines-wetzel",
-		"name": "Ines Wetzel"
-	},
-	{
-		"firstName": "César",
-		"lastName": "Domela",
-		"id": "cesar-domela",
-		"birthYear": "1900",
-		"deathYear": "1992",
-		"lifespanString": "1900 - 1992",
+		"firstName": "Hildebrand",
+		"lastName": "Gurlitt",
+		"id": "hildebrand-gurlitt",
+		"birthYear": "1895",
+		"deathYear": "1956",
+		"lifespanString": "1895 - 1956",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118638823"
+		"url": "http://d-nb.info/gnd/116930683"
 	},
 	{
-		"firstName": "Vera",
-		"lastName": "Broido",
-		"id": "vera-broido",
-		"birthYear": "1907",
-		"deathYear": "2004",
-		"lifespanString": "1907 - 2004",
-		"gender": "weiblich",
-		"url": "http://d-nb.info/gnd/123367913"
+		"id": "firma-otto-kuehl",
+		"name": "Firma Otto Kühl"
 	},
 	{
-		"id": "til-brugman",
-		"name": "Til Brugman"
+		"id": "s-gliewe",
+		"name": "S. Gliewe"
 	},
 	{
-		"id": "irene-hausmann",
-		"name": "Irene Hausmann"
+		"id": "else-michaelson",
+		"name": "Else Michaelson"
 	},
 	{
-		"id": "max-osborn",
-		"name": "Max Osborn"
+		"lastName": "neue Zeit / Schweizerischer Lichtbund, Zentralstelle Bern",
+		"id": "zentralstelle-bern",
+		"lifespanString": "1928 gegründet"
 	},
 	{
-		"firstName": "Curt",
-		"lastName": "Glaser",
-		"id": "curt-glaser",
-		"birthYear": "1879",
-		"deathYear": "1943",
-		"lifespanString": "1879 - 1943",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118942271"
+		"lastName": "neue Zeit / Schweizerischer Lichtbund, Zentralstelle Bern",
+		"id": "die-neue-zeit-schweizerischer-lichtbund",
+		"lifespanString": "1928 gegründet"
 	},
 	{
-		"lastName": "Staatliche Kunstbibliothek",
-		"id": "staatliche-kunstbibliothek",
-		"url": "http://d-nb.info/gnd/16316552-X"
+		"lastName": "Folkwang-Auriga-Verlag",
+		"id": "folkwang-auriga-verlag",
+		"birthYear": "1923",
+		"deathYear": "1932",
+		"lifespanString": "1923 - 1932",
+		"url": "http://d-nb.info/gnd/4516038-7"
 	},
 	{
-		"id": "felix-stiemer-verlag",
-		"name": "Felix Stiemer Verlag"
-	},
-	{
-		"firstName": "Jan",
-		"lastName": "Tschichold",
-		"id": "jan-tschichold",
-		"birthYear": "1902",
-		"deathYear": "1974",
-		"lifespanString": "1902 - 1974",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118624350"
-	},
-	{
-		"id": "kurt-wolff-verlag",
-		"name": "Kurt-Wolff-Verlag"
-	},
-	{
-		"firstName": "Vera",
-		"lastName": "Hausmann",
-		"id": "vera-hausmann",
-		"birthYear": "1907",
-		"deathYear": "1992",
-		"lifespanString": "1907 - 1992",
-		"gender": "weiblich"
-	},
-	{
-		"firstName": "Hedwig",
-		"lastName": "Hausmann",
-		"id": "hedwig-hausmann",
-		"birthYear": "1893",
-		"deathYear": "1972",
-		"lifespanString": "1893 - 1972",
-		"gender": "weiblich"
-	},
-	{
-		"firstName": "Bernhard",
-		"lastName": "Richter",
-		"id": "bernhard-richter",
-		"lifespanString": "nicht bekannt",
-		"gender": "männlich"
-	},
-	{
-		"firstName": "Salomo",
-		"lastName": "Friedlaender",
-		"id": "salomo-friedlaende",
-		"birthYear": "1871",
+		"firstName": "Wilfried",
+		"lastName": "Basse",
+		"id": "wilfried-basse",
+		"birthYear": "1899",
 		"deathYear": "1946",
-		"lifespanString": "1871 - 1946",
+		"lifespanString": "1899 - 1946",
+		"gender": "männlich"
+	},
+	{
+		"firstName": "Helma",
+		"lastName": "Schwitters",
+		"id": "helma-schwitters",
+		"gender": "weiblich",
+		"url": "http://d-nb.info/gnd/117431648"
+	},
+	{
+		"lastName": "J. Engelhorns Nachfolger",
+		"id": "j-engelhorns-nachfolger-verlag"
+	},
+	{
+		"lastName": "IG-Farbenindustrie-AG Agfa",
+		"id": "i-c-farbenindustrie-aktiengesellschaft-phototechnische-zentrale",
+		"url": "http://d-nb.info/gnd/118660-7"
+	},
+	{
+		"firstName": "Paul",
+		"lastName": "Westheim",
+		"id": "paul-westheim",
+		"birthYear": "1886",
+		"deathYear": "1963",
+		"lifespanString": "1886 - 1963",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118586076"
+		"url": "https://de.wikipedia.org/wiki/Paul_Westheim"
 	},
 	{
-		"firstName": "Hedwig",
-		"lastName": "Hausmann",
-		"id": "hedwig-mankiewitz",
-		"birthYear": "1893",
-		"deathYear": "1972",
-		"lifespanString": "1893 - 1972",
-		"gender": "weiblich"
-	},
-	{
-		"firstName": "Margarete",
-		"lastName": "Kubicka",
-		"id": "margarete-kubick",
-		"birthYear": "1891",
-		"deathYear": "1984",
-		"lifespanString": "1891 - 1984",
-		"gender": "weiblich"
-	},
-	{
-		"firstName": "Stanislaw",
-		"lastName": "Kubicki",
-		"id": "stanislaw-kubicki",
-		"birthYear": "1889",
-		"deathYear": "1943",
-		"lifespanString": "1889 - 1943",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/119084082"
-	},
-	{
-		"firstName": "Hermann",
-		"lastName": "Schüller",
-		"id": "hermann-schueller",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/1051461901"
-	},
-	{
-		"id": "secession-berlin",
-		"name": "Secession Berlin"
-	},
-	{
-		"firstName": "Erich",
-		"lastName": "Auerbach",
-		"id": "erich-auerbach",
-		"birthYear": "1892",
-		"deathYear": "1957",
-		"lifespanString": "1892 - 1957",
-		"gender": "männlich"
-	},
-	{
-		"firstName": "Marie",
-		"lastName": "Auerbach",
-		"id": "marie-auerbach",
-		"gender": "weiblich"
-	},
-	{
-		"firstName": "Anselm",
-		"lastName": "Ruest",
-		"id": "anselm-ruest",
-		"birthYear": "1878",
-		"deathYear": "1943",
-		"lifespanString": "1878 - 1943",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/119161443"
-	},
-	{
-		"firstName": "Anna",
-		"lastName": "Mankiewitz",
-		"id": "anna-mankiewitz",
-		"gender": "weiblich"
-	},
-	{
-		"id": "frau-b",
-		"name": "Frau B."
-	},
-	{
-		"firstName": "Henrik",
-		"lastName": "Wolzonn",
-		"id": "henrik-wolzonn",
-		"lifespanString": "Lebensdaten nicht bekannt",
-		"gender": "männlich"
-	},
-	{
-		"id": "elfriede-lohse-waechtler",
-		"name": "Elfriede Lohse-Wächtler"
-	},
-	{
-		"id": "kurt-lohse",
-		"name": "Kurt Lohse"
-	},
-	{
-		"id": "maria",
-		"name": "Maria"
-	},
-	{
-		"firstName": "Dela",
-		"lastName": "Blakmar",
-		"id": "dela-blakmar",
-		"birthYear": "1897",
-		"deathYear": "1989",
-		"lifespanString": "1897 - 1989",
-		"gender": "weiblich"
-	},
-	{
-		"firstName": "Arthur",
-		"lastName": "Egidi",
-		"id": "arthur-egidi",
-		"birthYear": "1859",
-		"deathYear": "1943",
-		"lifespanString": "1859 - 1943",
-		"gender": "männlich"
-	},
-	{
-		"firstName": "Ernst",
-		"lastName": "Krantz",
-		"id": "e-krantz",
-		"birthYear": "1889",
-		"deathYear": "1954",
-		"lifespanString": "1889 - 1954",
-		"gender": "männlich"
-	},
-	{
-		"firstName": "Ch.",
-		"lastName": "Jellinek",
-		"id": "frau-ch-jellinek",
-		"gender": "weiblich"
-	},
-	{
-		"firstName": "Eberhard",
-		"lastName": "Rogge",
-		"id": "eberhard-rogge",
-		"gender": "männlich"
-	},
-	{
-		"lastName": "Deutsche Bank und Disconto-Gesellschaft",
-		"id": "deutsche-bank",
-		"url": "http://d-nb.info/gnd/63979-5"
-	},
-	{
-		"lastName": "Deutsche Bank und Disconto-Gesellschaft",
-		"id": "disconto-gesellschaft",
-		"url": "http://d-nb.info/gnd/63979-5"
-	},
-	{
-		"firstName": "Simon",
-		"lastName": "Mosel",
-		"id": "simon-mosel",
-		"gender": "männlich"
-	},
-	{
-		"id": "albert-morgenstern-erben-k-von-knoblauch",
-		"name": "Albert Morgenstern Erben /K. von Knoblauch"
+		"id": "otto-pfaff",
+		"name": "Otto Pfaff"
 	},
 	{
 		"firstName": "Friedrich",
@@ -688,9 +742,8 @@
 		"url": "http://d-nb.info/gnd/119524716"
 	},
 	{
-		"lastName": "Robotnik",
-		"id": "robotnik-administration",
-		"url": "http://d-nb.info/gnd/4726684-3"
+		"lastName": "Unbekannt",
+		"id": "unbekannt"
 	},
 	{
 		"firstName": "Max",
@@ -703,19 +756,23 @@
 		"url": "http://d-nb.info/gnd/116518960"
 	},
 	{
-		"id": "ullstein-verlag-romanabteilung",
-		"name": "Ullstein Verlag / Romanabteilung"
+		"lastName": "Handelsvertretung der UdSSR in Deutschland / Foto-Kino-Abteilung",
+		"id": "handelsvertretung-der-u-d-s-s-r-in-deutschland-foto-kino-abteilung-berlin",
+		"url": "http://d-nb.info/gnd/16314447-3"
 	},
 	{
-		"lastName": "E. Prager-Verlag / E. Prager",
-		"id": "e-prager-verlag"
+		"id": "liubomir-micic",
+		"name": "Liubomir Micic"
 	},
 	{
-		"lastName": "Der Bücherkreis G.m.b.H.",
-		"id": "der-buecherkreis-g-m-b-h",
-		"birthYear": "1924",
-		"deathYear": "1933",
-		"lifespanString": "1924 - 1933"
+		"firstName": "John",
+		"lastName": "Heartfield",
+		"id": "john-heartfield",
+		"birthYear": "1891",
+		"deathYear": "1968",
+		"lifespanString": "1891 - 1968",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118547437"
 	},
 	{
 		"firstName": "Leo",
@@ -724,23 +781,25 @@
 		"gender": "männlich"
 	},
 	{
-		"firstName": "Luise",
-		"lastName": "Kautsky",
-		"id": "luise-kautsky",
-		"birthYear": "1864",
-		"deathYear": "1944",
-		"lifespanString": "1864 - 1944",
-		"gender": "weiblich",
-		"url": "http://d-nb.info/gnd/118560816"
+		"firstName": "Fritz",
+		"lastName": "Matthies-Masuren",
+		"id": "das-atelier-des-photographen-fritz-matthies-masuren",
+		"birthYear": "1873",
+		"deathYear": "1938",
+		"lifespanString": "1873 - 1938",
+		"gender": "männlich"
 	},
 	{
-		"lastName": "Büchergilde Gutenberg",
-		"id": "buechergilde-gutenberg",
-		"url": "http://d-nb.info/gnd/4213942-9"
+		"id": "goldstein",
+		"name": "Goldstein"
 	},
 	{
-		"id": "willi-franke",
-		"name": "Willi Franke"
+		"lastName": "Münchner Neueste Nachrichten",
+		"id": "fritz-gorodiski-muenchner-neueste-nachrichten",
+		"birthYear": "1887",
+		"deathYear": "1945",
+		"lifespanString": "1887 - 1945",
+		"url": "http://d-nb.info/gnd/4243715-5"
 	},
 	{
 		"lastName": "Societäts-Verlag",
@@ -748,19 +807,26 @@
 		"url": "http://d-nb.info/gnd/2021943-X"
 	},
 	{
-		"id": "ullstein-verlag",
-		"name": "Ullstein Verlag"
+		"firstName": "Franz",
+		"lastName": "Roh",
+		"id": "franz-roh",
+		"birthYear": "1890",
+		"deathYear": "1965",
+		"lifespanString": "1890 - 1965",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118602152"
 	},
 	{
-		"id": "volksstimme-buchhandlung",
-		"name": "Volksstimme-Buchhandlung"
+		"id": "eugen-heilig",
+		"name": "Eugen Heilig"
 	},
 	{
-		"lastName": "Der Bücherkreis G.m.b.H.",
-		"id": "ueber-den-buecherkreis-g-m-b-h",
-		"birthYear": "1924",
-		"deathYear": "1933",
-		"lifespanString": "1924 - 1933"
+		"lastName": "Der Arbeiter-Fotograf",
+		"id": "der-arbeiter-fotograf-redaktion"
+	},
+	{
+		"lastName": "Eisenberger Trockenplattenfabrik, Otto Kirschten Aktiengesellschaft",
+		"id": "otto-kirschten-aktiengesellschaft"
 	},
 	{
 		"firstName": "Leonhard",
@@ -771,10 +837,6 @@
 		"lifespanString": "1894 - 1958",
 		"gender": "männlich",
 		"url": "http://d-nb.info/gnd/13566439X"
-	},
-	{
-		"id": "secession",
-		"name": "Secession"
 	},
 	{
 		"lastName": "IG-Farbenindustrie-AG Agfa",
@@ -792,22 +854,23 @@
 		"url": "http://d-nb.info/gnd/118554387"
 	},
 	{
-		"lastName": "Akademischer Verlag Dr. Fritz Wedekind & Co.",
-		"id": "akademischer-verlag-fritz-wedekind-and-co",
-		"deathYear": "1938",
-		"lifespanString": "-1938"
+		"id": "walter-paschkewitz",
+		"name": "Walter Paschkewitz"
 	},
 	{
-		"lastName": "Der Arbeiter-Fotograf",
-		"id": "der-arbeiter-fotograf-redaktion"
+		"lastName": "Der Bücherkreis G.m.b.H.",
+		"id": "ueber-den-buecherkreis-g-m-b-h",
+		"birthYear": "1924",
+		"deathYear": "1933",
+		"lifespanString": "1924 - 1933"
 	},
 	{
-		"id": "eugen-heilig",
-		"name": "Eugen Heilig"
+		"id": "volksstimme-buchhandlung",
+		"name": "Volksstimme-Buchhandlung"
 	},
 	{
-		"lastName": "Astro-Gesellschaft m.b.H",
-		"id": "astro-gesellschaft-m-b-h"
+		"id": "willi-franke",
+		"name": "Willi Franke"
 	},
 	{
 		"lastName": "Atlantis-Verlag GmbH",
@@ -817,37 +880,34 @@
 		"url": "http://d-nb.info/gnd/2005299-6"
 	},
 	{
-		"id": "goldstein",
-		"name": "Goldstein"
+		"lastName": "Büchergilde Gutenberg",
+		"id": "buechergilde-gutenberg",
+		"url": "http://d-nb.info/gnd/4213942-9"
 	},
 	{
-		"firstName": "Adolf",
-		"lastName": "Behne",
-		"id": "adolf-behne",
-		"birthYear": "1885",
-		"deathYear": "1948",
-		"lifespanString": "1885 - 1948",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/119191164"
+		"firstName": "Luise",
+		"lastName": "Kautsky",
+		"id": "luise-kautsky",
+		"birthYear": "1864",
+		"deathYear": "1944",
+		"lifespanString": "1864 - 1944",
+		"gender": "weiblich",
+		"url": "http://d-nb.info/gnd/118560816"
 	},
 	{
-		"firstName": "Gustav",
-		"lastName": "Könitzer",
-		"id": "gustav-koenitzer-vorst-d-berl-typogr-ges",
-		"birthYear": "1863",
-		"lifespanString": "*1863-?",
+		"id": "ullstein-verlag-romanabteilung",
+		"name": "Ullstein Verlag / Romanabteilung"
+	},
+	{
+		"lastName": "Robotnik",
+		"id": "robotnik-administration",
+		"url": "http://d-nb.info/gnd/4726684-3"
+	},
+	{
+		"firstName": "Fritz",
+		"lastName": "Warschauer",
+		"id": "fritz-warschau",
 		"gender": "männlich"
-	},
-	{
-		"firstName": "Wilhelm",
-		"lastName": "Boehm",
-		"id": "wilhelm-boehm",
-		"gender": "männlich"
-	},
-	{
-		"lastName": "Carl Zeiss Jena",
-		"id": "carl-zeiss",
-		"url": "http://d-nb.info/gnd/90682-7"
 	},
 	{
 		"lastName": "Verlag Bruno Cassirer",
@@ -868,119 +928,86 @@
 		"url": "http://d-nb.info/gnd/123429455"
 	},
 	{
-		"id": "deutsche-flossbootwerke-g-m-b-h",
-		"name": "Deutsche Flossbootwerke G.m.b.H."
+		"lastName": "Zeiss Ikon",
+		"id": "zeiss-ikon-a-g-abt-photo-deutschland",
+		"url": "http://d-nb.info/gnd/16315919-1"
 	},
 	{
-		"firstName": "César",
-		"lastName": "Domela",
-		"id": "cesar-domela-nieuwenhuis",
-		"birthYear": "1900",
-		"deathYear": "1992",
-		"lifespanString": "1900 - 1992",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118638823"
+		"firstName": "Gustav",
+		"lastName": "Stotz",
+		"id": "foto-stuttgart-1929-gustaf-stotz",
+		"birthYear": "1884",
+		"deathYear": "1940",
+		"lifespanString": "1884 - 1940",
+		"gender": "männlich"
 	},
 	{
-		"firstName": "Walther",
-		"lastName": "Heisig",
-		"id": "walther-heisig",
-		"birthYear": "1902",
-		"deathYear": "1984",
-		"lifespanString": "1902 - 1984",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/140543171"
+		"id": "werkbund-ausstellung-film",
+		"name": "Werkbund-Ausstellung Film"
 	},
 	{
 		"id": "deutsche-dalton-fabrikzentrale-schaefer-and-clauss",
 		"name": "Deutsche Dalton Fabrikzentrale Schäfer & Clauss"
 	},
 	{
-		"lastName": "J. Engelhorns Nachfolger",
-		"id": "j-engelhorns-nachfolger-verlag"
+		"lastName": "Wauckosin&Co., Photo-Spezialitäten-Optik",
+		"id": "photo-spezialitaeten-optik"
 	},
 	{
-		"firstName": "Hanns",
-		"lastName": "Fischer",
-		"id": "hanns-fischer",
-		"birthYear": "1888",
-		"lifespanString": "*1888",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/12852250X"
-	},
-	{
-		"lastName": "Folkwang-Auriga-Verlag",
-		"id": "folkwang-auriga-verlag",
-		"birthYear": "1923",
-		"deathYear": "1932",
-		"lifespanString": "1923 - 1932",
-		"url": "http://d-nb.info/gnd/4516038-7"
-	},
-	{
-		"firstName": "Fritz",
-		"lastName": "Matthies-Masuren",
-		"id": "photographische-rundschau-fritz-matthies-masuren",
-		"birthYear": "1873",
-		"deathYear": "1938",
-		"lifespanString": "1873 - 1938",
-		"gender": "männlich"
+		"firstName": "Ch.",
+		"lastName": "Jellinek",
+		"id": "frau-ch-jellinek",
+		"gender": "weiblich"
 	},
 	{
 		"firstName": "Ernst",
-		"lastName": "Fuhrmann",
-		"id": "ernst-fuhrmann",
-		"birthYear": "1886",
-		"deathYear": "1956",
-		"lifespanString": "1886 - 1956",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118818902"
-	},
-	{
-		"id": "s-gliewe",
-		"name": "S. Gliewe"
-	},
-	{
-		"firstName": "Werner",
-		"lastName": "Graeff",
-		"id": "werner-graeff",
-		"birthYear": "1901",
-		"deathYear": "1978",
-		"lifespanString": "1901 - 1978",
+		"lastName": "Krantz",
+		"id": "e-krantz",
+		"birthYear": "1889",
+		"deathYear": "1954",
+		"lifespanString": "1889 - 1954",
 		"gender": "männlich"
 	},
 	{
-		"firstName": "Hildebrand",
-		"lastName": "Gurlitt",
-		"id": "hildebrand-gurlitt",
-		"birthYear": "1895",
-		"deathYear": "1956",
-		"lifespanString": "1895 - 1956",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/116930683"
+		"firstName": "Arthur",
+		"lastName": "Egidi",
+		"id": "arthur-egidi",
+		"birthYear": "1859",
+		"deathYear": "1943",
+		"lifespanString": "1859 - 1943",
+		"gender": "männlich"
 	},
 	{
-		"firstName": "Carl",
-		"lastName": "Haeberlin",
-		"id": "carl-haeberlin",
-		"birthYear": "1870",
-		"deathYear": "1954",
-		"lifespanString": "1870 - 1954",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/11936283X"
+		"id": "maria",
+		"name": "Maria"
 	},
 	{
-		"id": "handelsvertretung-der-udssr-in-de-foto-kino-abt",
-		"name": "Handelsvertretung der UdSSR in De. / Foto-Kino-Abt."
+		"lastName": "Wauckosin&Co., Photo-Spezialitäten-Optik",
+		"id": "wauckosin-and-co"
+	},
+	{
+		"id": "politische-monatshefte",
+		"name": "Politische Monatshefte"
+	},
+	{
+		"lastName": "Reichspatentamt Berlin",
+		"id": "reich"
+	},
+	{
+		"id": "frau-b",
+		"name": "Frau B."
+	},
+	{
+		"lastName": "Berliner Volkszeitung",
+		"id": "volk"
 	},
 	{
 		"id": "funk-stunde-redaktion",
 		"name": "Funk-Stunde / Redaktion"
 	},
 	{
-		"firstName": "Karl",
-		"lastName": "Nierendorf",
-		"id": "karl-nierendorf",
-		"gender": "männlich"
+		"id": "terramare-office-richard-f-robinow",
+		"name": "Terramare Office / Richard F. Robinow"
 	},
 	{
 		"firstName": "Fritz",
@@ -993,14 +1020,10 @@
 		"url": "http://d-nb.info/gnd/116716363"
 	},
 	{
-		"firstName": "Hanns",
-		"lastName": "Hörbiger",
-		"id": "hanns-hoerbiger",
-		"birthYear": "1860",
-		"deathYear": "1931",
-		"lifespanString": "1860 - 1931",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118552147"
+		"firstName": "Marie",
+		"lastName": "Auerbach",
+		"id": "marie-auerbach",
+		"gender": "weiblich"
 	},
 	{
 		"id": "fritz-hinrichsen",
@@ -1011,475 +1034,54 @@
 		"name": "Jeß"
 	},
 	{
-		"id": "gustav-kemman",
-		"name": "Gustav Kemman"
+		"id": "die-redaktion-die-aktion",
+		"name": "die Redaktion Die Aktion"
 	},
 	{
 		"id": "hermann-graf-keyserling",
 		"name": "Hermann Graf Keyserling"
 	},
 	{
-		"lastName": "Photohaus Max Klinke",
-		"id": "photohaus-max-klinke"
+		"firstName": "Claude",
+		"lastName": "Spaak",
+		"id": "societe-auxiliaire-des-expositions-du-palais-des-beaux-arts-claude-spaak",
+		"birthYear": "1904",
+		"deathYear": "1990",
+		"lifespanString": "1904 - 1990",
+		"gender": "männlich"
 	},
 	{
-		"id": "firma-otto-kuehl",
-		"name": "Firma Otto Kühl"
+		"lastName": "Hofbuchdruckerei von C. Dünnhaupt G.m.b.H.",
+		"id": "hofbuchdruckerei-von-c-duennhaupt-g-m-b-h"
 	},
 	{
-		"id": "alfred-manovill",
-		"name": "Alfred Manovill"
+		"lastName": "Ernst Ohle Buchhandlung, Düsseldorf",
+		"id": "ernst-ohle-buchhandlung"
 	},
 	{
-		"firstName": "Rolf",
-		"lastName": "Mayr",
-		"id": "rolf-mayr",
-		"birthYear": "1899",
-		"deathYear": "1961",
-		"lifespanString": "1899 - 1961",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/116973617"
-	},
-	{
-		"firstName": "Walter",
-		"lastName": "Serner",
-		"id": "walter-serner",
-		"birthYear": "1889",
-		"deathYear": "1942",
-		"lifespanString": "1889 - 1942",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118764764"
-	},
-	{
-		"firstName": "Ludwig",
-		"lastName": "Mies van der Rohe",
-		"id": "ludwig-mies-van-der-rohe",
-		"birthYear": "1886",
-		"deathYear": "1969",
-		"lifespanString": "1886 - 1969",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118582291"
-	},
-	{
-		"lastName": "Münchner Neueste Nachrichten",
-		"id": "fritz-gorodiski-muenchner-neueste-nachrichten",
-		"birthYear": "1887",
-		"deathYear": "1945",
-		"lifespanString": "1887 - 1945",
-		"url": "http://d-nb.info/gnd/4243715-5"
-	},
-	{
-		"lastName": "Städtisches Museum Stettin",
-		"id": "museum-der-stadt-stettin-horst-wachs",
-		"url": "http://d-nb.info/gnd/7631825-4"
-	},
-	{
-		"lastName": "Optisch-Mechanische-Industrie-Anstalt Hugo Meyer & Co.",
-		"id": "optisch-mechanische-industrie-anstalt-hugo-meyer-and-co",
-		"birthYear": "1896",
-		"deathYear": "1945",
-		"lifespanString": "1896 - 1945",
-		"url": "http://d-nb.info/gnd/7854975-9"
-	},
-	{
-		"id": "otto-pfaff",
-		"name": "Otto Pfaff"
-	},
-	{
-		"firstName": "Friedrich Willy",
-		"lastName": "Frerk",
-		"id": "photofreund-halbmonatsschrift-friedrich-willy-frerk",
-		"birthYear": "1886",
-		"deathYear": "1960",
-		"lifespanString": "1886 - 1960",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/105654957"
-	},
-	{
-		"lastName": "Photo Porst",
-		"id": "photo-porst",
-		"birthYear": "1919",
-		"url": "http://d-nb.info/gnd/4772603-9"
-	},
-	{
-		"id": "frau-pilaski",
-		"name": "Frau Pilaski"
-	},
-	{
-		"firstName": "Carl Ernst",
-		"lastName": "Hinkefuß",
-		"id": "carl-ernst-hinkefuss-qualitaet-ware",
-		"birthYear": "1881",
-		"deathYear": "1970",
-		"lifespanString": "1881 - 1970",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/127333444"
-	},
-	{
-		"lastName": "Qualität Ware und Werbung. Zeitschrift für Wirtschaftliche Bildung und Qualitätsproduktion",
-		"id": "werbung",
-		"birthYear": "1920",
-		"deathYear": "1933"
-	},
-	{
-		"lastName": "Remington-Schreibmaschinen GmbH",
-		"id": "firma-remington-schreibmaschinen-gmbh"
-	},
-	{
-		"firstName": "Hans",
-		"lastName": "Richter",
-		"id": "hans-richter",
-		"birthYear": "1888",
-		"deathYear": "1976",
-		"lifespanString": "1888 - 1976",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118600435"
-	},
-	{
-		"firstName": "Franz",
-		"lastName": "Roh",
-		"id": "franz-roh",
-		"birthYear": "1890",
-		"deathYear": "1965",
-		"lifespanString": "1890 - 1965",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118602152"
-	},
-	{
-		"lastName": "Die Rote Fahne",
-		"id": "die-rote-fahne-redaktion",
+		"lastName": "Novembergruppe",
+		"id": "novembergruppe-e-v",
 		"birthYear": "1918",
-		"deathYear": "1933",
-		"lifespanString": "1918 - 1933",
-		"url": "http://d-nb.info/gnd/4200256"
+		"deathYear": "1935",
+		"lifespanString": "1918 - 1935",
+		"url": "http://d-nb.info/gnd/142316-2"
 	},
 	{
-		"id": "herr-schlesinger",
-		"name": "Herr Schlesinger"
+		"id": "tristan-tzara",
+		"name": "Tristan Tzara"
 	},
 	{
-		"firstName": "Franz Wilhelm",
-		"lastName": "Seiwert",
-		"id": "franz-wilhelm-seiwert",
-		"birthYear": "1894",
-		"deathYear": "1933",
-		"lifespanString": "1894 - 1933",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118612972"
-	},
-	{
-		"id": "sommerburg",
-		"name": "Sommerburg"
-	},
-	{
-		"id": "strauss",
-		"name": "Strauss"
-	},
-	{
-		"firstName": "Ernst",
-		"lastName": "Schoen",
-		"id": "suedwestdeutscher-rundfunk-ag-ernst-schoen",
-		"birthYear": "1894",
-		"deathYear": "1960",
-		"lifespanString": "1894 - 1960",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/12229386X"
-	},
-	{
-		"firstName": "Peter",
-		"lastName": "Suhrkamp",
-		"id": "peter-suhrkamp-verlag-ullstein",
-		"birthYear": "1891",
-		"deathYear": "1959",
-		"lifespanString": "1891 - 1959",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118619977"
-	},
-	{
-		"firstName": "Wolfgang",
-		"lastName": "Herrmann",
-		"id": "staatliche-kunstbibliothek-wolfgang-herrmann",
-		"birthYear": "1899",
-		"deathYear": "1995",
-		"lifespanString": "1899 - 1995",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/116752149"
-	},
-	{
-		"firstName": "Curt",
-		"lastName": "Glaser",
-		"id": "staatliche-kunstbibliothek-curt-glaser",
-		"birthYear": "1879",
-		"deathYear": "1943",
-		"lifespanString": "1879 - 1943",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/118942271"
-	},
-	{
-		"id": "modejournal-centrale",
-		"name": "Modejournal-Centrale"
-	},
-	{
-		"id": "arthur-tichauer",
-		"name": "Arthur Tichauer"
-	},
-	{
-		"firstName": "August",
-		"lastName": "Tschinkel",
-		"id": "august-tschinkel",
-		"birthYear": "1905",
-		"deathYear": "1983",
-		"lifespanString": "1905 - 1983",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/130167355"
-	},
-	{
-		"id": "ullstein-zifferndienst",
-		"name": "Ullstein Zifferndienst"
-	},
-	{
-		"lastName": "neue Zeit / Schweizerischer Lichtbund, Zentralstelle Bern",
-		"id": "die-neue-zeit-schweizerischer-lichtbund",
-		"lifespanString": "1928 gegründet"
-	},
-	{
-		"lastName": "neue Zeit / Schweizerischer Lichtbund, Zentralstelle Bern",
-		"id": "zentralstelle-bern",
-		"lifespanString": "1928 gegründet"
-	},
-	{
-		"lastName": "Wilhelm Knapp Verlag",
-		"id": "wilhelm-knapp-verlag",
-		"url": "http://d-nb.info/gnd/7651678-7"
-	},
-	{
-		"lastName": "Müller & Kiepenheuer Verlag",
-		"id": "mueller-and-kiepenheuer-verlag",
-		"url": "http://d-nb.info/gnd/102960794X"
-	},
-	{
-		"id": "bruno-schultz-das-deutsche-lichtbild",
-		"name": "Bruno Schultz / Das Deutsche Lichtbild"
-	},
-	{
-		"id": "otto-voigtlaender",
-		"name": "Otto Voigtländer"
-	},
-	{
-		"firstName": "Walter",
-		"lastName": "Stern",
-		"id": "westdeutscher-rundfunk-ag-walter-stern"
-	},
-	{
-		"id": "zettelmayer",
-		"name": "Zettelmayer"
-	},
-	{
-		"id": "aenne-zierath",
-		"name": "Aenne Zierath"
-	},
-	{
-		"lastName": "Gebrauchsgraphik, Monatsschrift zur Förderung künstlerischer Reklame",
-		"id": "hermann-karl-frenzel-gebrauchsgraphik-monatsschrift"
-	},
-	{
-		"lastName": "Verlag Robert & Bruno Schultz",
-		"id": "verlag-robert-and-bruno-schultz"
-	},
-	{
-		"lastName": "IG-Farbenindustrie-AG Agfa",
-		"id": "agfa",
-		"url": "http://d-nb.info/gnd/118660-7"
-	},
-	{
-		"lastName": "IG-Farbenindustrie-AG Agfa",
-		"id": "i-c-farbenindustrie-ag-phototechnische-zentrale",
-		"url": "http://d-nb.info/gnd/118660-7"
-	},
-	{
-		"lastName": "IG-Farbenindustrie-AG Agfa",
-		"id": "i-c-farbenindustrie-aktiengesellschaft-phototechnische-zentrale",
-		"url": "http://d-nb.info/gnd/118660-7"
-	},
-	{
-		"id": "atlantis-verlag-g-m-b-h",
-		"name": "Atlantis-Verlag G.m.b.H."
-	},
-	{
-		"id": "m-balzer-kunst-bautischlerei",
-		"name": "M. Balzer Kunst-/ Bautischlerei"
-	},
-	{
-		"firstName": "Wilfried",
-		"lastName": "Basse",
-		"id": "wilfried-basse",
-		"birthYear": "1899",
-		"deathYear": "1946",
-		"lifespanString": "1899 - 1946",
-		"gender": "männlich"
-	},
-	{
-		"id": "verlag-neue-jugend",
-		"name": "Verlag Neue Jugend"
-	},
-	{
-		"firstName": "Gustav",
-		"lastName": "Könitzer",
-		"id": "gustav-koenitzer",
-		"birthYear": "1863",
-		"lifespanString": "*1863-?",
-		"gender": "männlich"
-	},
-	{
-		"lastName": "Berliner Typographische Gesellschaft",
-		"id": "vorstand-der-berliner-typographischen-gesellschaft-papierzeitung",
-		"url": "http://d-nb.info/gnd/1022637-0"
-	},
-	{
-		"firstName": "Otto",
-		"lastName": "Brattskoven",
-		"id": "otto-brattskoven",
-		"birthYear": "1897",
-		"deathYear": "1952",
-		"lifespanString": "1897 - 1952",
-		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/1031886753"
-	},
-	{
-		"firstName": "Erich",
-		"lastName": "Buchholz",
-		"id": "erich-buchholz",
-		"birthYear": "1891",
+		"firstName": "Hedwig",
+		"lastName": "Hausmann",
+		"id": "hedwig-mankiewitz",
+		"birthYear": "1893",
 		"deathYear": "1972",
-		"lifespanString": "1891 - 1972",
-		"gender": "männlich"
+		"lifespanString": "1893 - 1972",
+		"gender": "weiblich"
 	},
 	{
-		"firstName": "Günther",
-		"lastName": "Herkt",
-		"id": "guenther-herkt",
-		"gender": "männlich"
-	},
-	{
-		"id": "firma-photohaus-sommerburg",
-		"name": "Firma Photohaus Sommerburg"
-	},
-	{
-		"lastName": "Carl Zeiss Jena",
-		"id": "carl-zeiss-abt-fuer-photographie",
-		"url": "http://d-nb.info/gnd/90682-7"
-	},
-	{
-		"lastName": "Verlag Bruno Cassirer",
-		"id": "verlagsbuchhandlung-bruno-cassirer",
-		"birthYear": "1901",
-		"deathYear": "1939",
-		"lifespanString": "1901 - 1939",
-		"url": "http://d-nb.info/gnd/110878-5"
-	},
-	{
-		"id": "central-european-news-service-holland-redaktion",
-		"name": "Central European News Service / Holland-Redaktion"
-	},
-	{
-		"firstName": "I.",
-		"lastName": "Rona",
-		"id": "i-rona",
-		"lifespanString": "Lebensdaten nicht ermittelt"
-	},
-	{
-		"lastName": "Eisenberger Trockenplattenfabrik, Otto Kirschten Aktiengesellschaft",
-		"id": "eisenberger-trockenplattenfabrik"
-	},
-	{
-		"lastName": "Eisenberger Trockenplattenfabrik, Otto Kirschten Aktiengesellschaft",
-		"id": "otto-kirschten-aktiengesellschaft"
-	},
-	{
-		"lastName": "Folkwang-Auriga-Verlag",
-		"id": "ernst-fuhrmann-folkwang-auriga-verlag",
-		"birthYear": "1923",
-		"deathYear": "1932",
-		"lifespanString": "1923 - 1932",
-		"url": "http://d-nb.info/gnd/4516038-7"
-	},
-	{
-		"id": "s-flechine-foto-semo",
-		"name": "S. Flechine / Foto-Semo"
-	},
-	{
-		"lastName": "Funk-Stunde-AG",
-		"id": "funk-stunde-ag-redaktion",
-		"birthYear": "1924",
-		"lifespanString": "1924 gegrandet",
-		"url": "http://d-nb.info/gnd/4036475-6"
-	},
-	{
-		"lastName": "Gebrauchsgraphik, Monatsschrift zur Förderung künstlerischer Reklame",
-		"id": "schriftleitung-der-monatsschrift-gebrauchsgraphik"
-	},
-	{
-		"lastName": "Iduna-Germania Allgemeine Versicherungs-Aktiengesellschaft (Berlin)",
-		"id": "iduna-germania",
-		"birthYear": "1929",
-		"deathYear": "1964",
-		"lifespanString": "1929 - 1964",
-		"url": "http://d-nb.info/gnd/355351-6"
-	},
-	{
-		"lastName": "Iduna-Germania Allgemeine Versicherungs-Aktiengesellschaft (Berlin)",
-		"id": "allgemeine-versicherungs-ag",
-		"birthYear": "1929",
-		"deathYear": "1964",
-		"lifespanString": "1929 - 1964",
-		"url": "http://d-nb.info/gnd/355351-6"
-	},
-	{
-		"lastName": "Iduna-Germania Allgemeine Versicherungs-Aktiengesellschaft (Berlin)",
-		"id": "allgemeine-versicherungs-aktiengesellschaft",
-		"birthYear": "1929",
-		"deathYear": "1964",
-		"lifespanString": "1929 - 1964",
-		"url": "http://d-nb.info/gnd/355351-6"
-	},
-	{
-		"id": "otto-groener-buchdruckerei",
-		"name": "Otto Gröner Buchdruckerei"
-	},
-	{
-		"lastName": "Handelsvertretung der UdSSR in Deutschland / Foto-Kino-Abteilung",
-		"id": "handelsvertretung-der-u-d-s-s-r-in-deutschland-foto-kino-abteilung-berlin",
-		"url": "http://d-nb.info/gnd/16314447-3"
-	},
-	{
-		"firstName": "Otto",
-		"lastName": "Nagel",
-		"id": "otto-nagel",
-		"birthYear": "1894",
-		"deathYear": "1967",
-		"lifespanString": "1894 - 1967",
-		"gender": "männlich",
-		"url": "http://de.wikipedia.org/wiki/Otto_Nagel"
-	},
-	{
-		"id": "ignaz-jezower",
-		"name": "Ignaz Ježower"
-	},
-	{
-		"id": "heinrich-jenne",
-		"name": "Heinrich Jenne"
-	},
-	{
-		"lastName": "Kölnisch Illustrierte Zeitung",
-		"id": "koelnische-illustrierte-zeitung-berliner-schriftleitung",
-		"birthYear": "1926",
-		"deathYear": "1945",
-		"lifespanString": "1926 - 1945",
-		"url": "http://d-nb.info/gnd/4789592-5"
-	},
-	{
-		"id": "prof-kroehnke",
-		"name": "Prof.  Kröhnke"
+		"id": "tabak-zigarettenfabrik-kyriazi-freres",
+		"name": "Tabak-/ Zigarettenfabrik Kyriazi Frères"
 	},
 	{
 		"firstName": "Hugo",
@@ -1492,22 +1094,411 @@
 		"url": "http://d-nb.info/gnd/11661045X"
 	},
 	{
-		"lastName": "Kunstverein Hamburg",
-		"id": "kunstverein-in-hamburg",
-		"birthYear": "1817",
-		"lifespanString": "*1817 (gegründet)"
+		"id": "kurt-wolff-verlag",
+		"name": "Kurt-Wolff-Verlag"
 	},
 	{
-		"id": "tabak-zigarettenfabrik-kyriazi-freres",
-		"name": "Tabak-/ Zigarettenfabrik Kyriazi Frères"
+		"lastName": "Kölnisch Illustrierte Zeitung",
+		"id": "koelnische-illustrierte-zeitung-berliner-schriftleitung",
+		"birthYear": "1926",
+		"deathYear": "1945",
+		"lifespanString": "1926 - 1945",
+		"url": "http://d-nb.info/gnd/4789592-5"
 	},
 	{
-		"id": "museum-der-stadt-stettin",
-		"name": "Museum der Stadt Stettin"
+		"id": "heinrich-jenne",
+		"name": "Heinrich Jenne"
 	},
 	{
-		"id": "naturkundemuseum-horst-wachs",
-		"name": "Naturkundemuseum / Horst Wachs"
+		"id": "irene-hausmann",
+		"name": "Irene Hausmann"
+	},
+	{
+		"id": "frau-pilaski",
+		"name": "Frau Pilaski"
+	},
+	{
+		"id": "til-brugman",
+		"name": "Til Brugman"
+	},
+	{
+		"id": "ignaz-jezower",
+		"name": "Ignaz Ježower"
+	},
+	{
+		"firstName": "Otto",
+		"lastName": "Nagel",
+		"id": "otto-nagel",
+		"birthYear": "1894",
+		"deathYear": "1967",
+		"lifespanString": "1894 - 1967",
+		"gender": "männlich",
+		"url": "http://de.wikipedia.org/wiki/Otto_Nagel"
+	},
+	{
+		"id": "paul-steegemann",
+		"name": "Paul Steegemann"
+	},
+	{
+		"id": "w-neumann",
+		"name": "W. Neumann"
+	},
+	{
+		"firstName": "Walter",
+		"lastName": "Mehring",
+		"id": "walter-mehring",
+		"birthYear": "1896",
+		"deathYear": "1981",
+		"lifespanString": "1896 - 1981",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118579983"
+	},
+	{
+		"id": "herr-schlesinger",
+		"name": "Herr Schlesinger"
+	},
+	{
+		"id": "otto-groener-buchdruckerei",
+		"name": "Otto Gröner Buchdruckerei"
+	},
+	{
+		"id": "maria-marc",
+		"name": "Maria Marc"
+	},
+	{
+		"id": "strauss",
+		"name": "Strauss"
+	},
+	{
+		"lastName": "Iduna-Germania Allgemeine Versicherungs-Aktiengesellschaft (Berlin)",
+		"id": "allgemeine-versicherungs-aktiengesellschaft",
+		"birthYear": "1929",
+		"deathYear": "1964",
+		"lifespanString": "1929 - 1964",
+		"url": "http://d-nb.info/gnd/355351-6"
+	},
+	{
+		"lastName": "Iduna-Germania Allgemeine Versicherungs-Aktiengesellschaft (Berlin)",
+		"id": "iduna-germania",
+		"birthYear": "1929",
+		"deathYear": "1964",
+		"lifespanString": "1929 - 1964",
+		"url": "http://d-nb.info/gnd/355351-6"
+	},
+	{
+		"id": "conrad-felixmueller",
+		"name": "Conrad Felixmüller"
+	},
+	{
+		"firstName": "Viking",
+		"lastName": "Eggeling",
+		"id": "viking-eggeling",
+		"birthYear": "1880",
+		"deathYear": "1925",
+		"lifespanString": "1880 - 1925",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118529048"
+	},
+	{
+		"id": "modejournal-centrale",
+		"name": "Modejournal-Centrale"
+	},
+	{
+		"id": "arthur-tichauer",
+		"name": "Arthur Tichauer"
+	},
+	{
+		"firstName": "Otto",
+		"lastName": "Dix",
+		"id": "otto-dix",
+		"birthYear": "1891",
+		"deathYear": "1969",
+		"lifespanString": "1891 - 1969",
+		"gender": "männlich"
+	},
+	{
+		"id": "ullstein-zifferndienst",
+		"name": "Ullstein Zifferndienst"
+	},
+	{
+		"lastName": "Gebrauchsgraphik, Monatsschrift zur Förderung künstlerischer Reklame",
+		"id": "schriftleitung-der-monatsschrift-gebrauchsgraphik"
+	},
+	{
+		"lastName": "Funk-Stunde-AG",
+		"id": "funk-stunde-ag-redaktion",
+		"birthYear": "1924",
+		"lifespanString": "1924 gegrandet",
+		"url": "http://d-nb.info/gnd/4036475-6"
+	},
+	{
+		"lastName": "Wilhelm Knapp Verlag",
+		"id": "wilhelm-knapp-verlag",
+		"url": "http://d-nb.info/gnd/7651678-7"
+	},
+	{
+		"id": "erna-haehne",
+		"name": "Erna Hähne"
+	},
+	{
+		"id": "s-flechine-foto-semo",
+		"name": "S. Flechine / Foto-Semo"
+	},
+	{
+		"id": "otto-voigtlaender",
+		"name": "Otto Voigtländer"
+	},
+	{
+		"lastName": "Eisenberger Trockenplattenfabrik, Otto Kirschten Aktiengesellschaft",
+		"id": "eisenberger-trockenplattenfabrik"
+	},
+	{
+		"id": "zettelmayer",
+		"name": "Zettelmayer"
+	},
+	{
+		"id": "aenne-zierath",
+		"name": "Aenne Zierath"
+	},
+	{
+		"id": "walter-asch",
+		"name": "Walter Asch"
+	},
+	{
+		"id": "paul-adler",
+		"name": "Paul Adler"
+	},
+	{
+		"lastName": "Verlag Bruno Cassirer",
+		"id": "verlagsbuchhandlung-bruno-cassirer",
+		"birthYear": "1901",
+		"deathYear": "1939",
+		"lifespanString": "1901 - 1939",
+		"url": "http://d-nb.info/gnd/110878-5"
+	},
+	{
+		"id": "firma-photohaus-sommerburg",
+		"name": "Firma Photohaus Sommerburg"
+	},
+	{
+		"firstName": "Günther",
+		"lastName": "Herkt",
+		"id": "guenther-herkt",
+		"gender": "männlich"
+	},
+	{
+		"id": "franz-pfemfert",
+		"name": "Franz Pfemfert"
+	},
+	{
+		"id": "m-balzer-kunst-bautischlerei",
+		"name": "M. Balzer Kunst-/ Bautischlerei"
+	},
+	{
+		"firstName": "Erich",
+		"lastName": "Buchholz",
+		"id": "erich-buchholz",
+		"birthYear": "1891",
+		"deathYear": "1972",
+		"lifespanString": "1891 - 1972",
+		"gender": "männlich"
+	},
+	{
+		"firstName": "Otto",
+		"lastName": "Brattskoven",
+		"id": "otto-brattskoven",
+		"birthYear": "1897",
+		"deathYear": "1952",
+		"lifespanString": "1897 - 1952",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/1031886753"
+	},
+	{
+		"id": "ludwig-meidner",
+		"name": "Ludwig Meidner"
+	},
+	{
+		"lastName": "DADA-Bewegung",
+		"id": "dada-bewegung",
+		"birthYear": "1917",
+		"deathYear": "1922"
+	},
+	{
+		"id": "graphisches-kabinett-j-b-neumann",
+		"name": "Graphisches Kabinett J. B. Neumann"
+	},
+	{
+		"firstName": "Erich",
+		"lastName": "Heckel",
+		"id": "erich-heckel",
+		"birthYear": "1883",
+		"deathYear": "1970",
+		"lifespanString": "1883 - 1970",
+		"gender": "männlich"
+	},
+	{
+		"firstName": "Walter (Walt)",
+		"lastName": "Whitman",
+		"id": "walter-walt-whitman",
+		"birthYear": "1819",
+		"deathYear": "1892",
+		"lifespanString": "1819 - 1892",
+		"gender": "männlich"
+	},
+	{
+		"lastName": "IG-Farbenindustrie-AG Agfa",
+		"id": "i-c-farbenindustrie-ag-phototechnische-zentrale",
+		"url": "http://d-nb.info/gnd/118660-7"
+	},
+	{
+		"firstName": "Jefim",
+		"lastName": "Golyscheff",
+		"id": "jefim-golyscheff",
+		"birthYear": "1897",
+		"deathYear": "1970",
+		"lifespanString": "1897 - 1970",
+		"gender": "männlich"
+	},
+	{
+		"firstName": "Alfred",
+		"lastName": "Mombert",
+		"id": "alfred-mombert",
+		"birthYear": "1872",
+		"deathYear": "1942",
+		"lifespanString": "1872 - 1942",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118583417"
+	},
+	{
+		"firstName": "Franz",
+		"lastName": "Ehrlich",
+		"id": "franz-ehrlich",
+		"birthYear": "1907",
+		"deathYear": "1984",
+		"lifespanString": "1907 - 1984",
+		"gender": "männlich"
+	},
+	{
+		"lastName": "Neue Berliner Zeitung, Das 12-Uhr-Blatt",
+		"id": "das-12-uhr-blatt"
+	},
+	{
+		"id": "maria-uhden",
+		"name": "Maria Uhden"
+	},
+	{
+		"id": "secession",
+		"name": "Secession"
+	},
+	{
+		"lastName": "Neue Berliner Zeitung, Das 12-Uhr-Blatt",
+		"id": "neue-berliner-zeitung"
+	},
+	{
+		"id": "alfred-doeblin",
+		"name": "Alfred Döblin"
+	},
+	{
+		"id": "oskar-moll",
+		"name": "Oskar Moll"
+	},
+	{
+		"id": "rudolf-adrian-dietrich",
+		"name": "Rudolf Adrian Dietrich"
+	},
+	{
+		"firstName": "Rudolf",
+		"lastName": "Schlichter",
+		"id": "rudolf-schlichter",
+		"birthYear": "1890",
+		"deathYear": "1955",
+		"lifespanString": "1890 - 1955",
+		"gender": "männlich"
+	},
+	{
+		"lastName": "Iduna-Germania Allgemeine Versicherungs-Aktiengesellschaft (Berlin)",
+		"id": "allgemeine-versicherungs-ag",
+		"birthYear": "1929",
+		"deathYear": "1964",
+		"lifespanString": "1929 - 1964",
+		"url": "http://d-nb.info/gnd/355351-6"
+	},
+	{
+		"id": "filippo-marinetti",
+		"name": "Filippo Marinetti"
+	},
+	{
+		"id": "ernst-neumann",
+		"name": "Ernst Neumann"
+	},
+	{
+		"lastName": "Die Rote Fahne",
+		"id": "die-rote-fahne-redaktion",
+		"birthYear": "1918",
+		"deathYear": "1933",
+		"lifespanString": "1918 - 1933",
+		"url": "http://d-nb.info/gnd/4200256"
+	},
+	{
+		"id": "ines-wetzel",
+		"name": "Ines Wetzel"
+	},
+	{
+		"firstName": "César",
+		"lastName": "Domela",
+		"id": "cesar-domela",
+		"birthYear": "1900",
+		"deathYear": "1992",
+		"lifespanString": "1900 - 1992",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118638823"
+	},
+	{
+		"id": "max-osborn",
+		"name": "Max Osborn"
+	},
+	{
+		"id": "felix-stiemer-verlag",
+		"name": "Felix Stiemer Verlag"
+	},
+	{
+		"id": "prof-kroehnke",
+		"name": "Prof.  Kröhnke"
+	},
+	{
+		"firstName": "Bernhard",
+		"lastName": "Richter",
+		"id": "bernhard-richter",
+		"lifespanString": "nicht bekannt",
+		"gender": "männlich"
+	},
+	{
+		"id": "adolf-knoblauch",
+		"name": "Adolf Knoblauch"
+	},
+	{
+		"firstName": "Salomo",
+		"lastName": "Friedlaender",
+		"id": "salomo-friedlaende",
+		"birthYear": "1871",
+		"deathYear": "1946",
+		"lifespanString": "1871 - 1946",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118586076"
+	},
+	{
+		"firstName": "Walter",
+		"lastName": "Serner",
+		"id": "walter-serner",
+		"birthYear": "1889",
+		"deathYear": "1942",
+		"lifespanString": "1889 - 1942",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118764764"
+	},
+	{
+		"id": "kunsthandlung-otto-burchard",
+		"name": "Kunsthandlung  Otto Burchard"
 	},
 	{
 		"id": "ges-d-freunde-and-foerderer-d-naturkundemuseums-d-stadt-stettin",
@@ -1519,38 +1510,45 @@
 		"url": "http://d-nb.info/gnd/7631825-4"
 	},
 	{
-		"lastName": "Novembergruppe",
-		"id": "novembergruppe-e-v",
-		"birthYear": "1918",
-		"deathYear": "1935",
-		"lifespanString": "1918 - 1935",
-		"url": "http://d-nb.info/gnd/142316-2"
+		"firstName": "Margarete",
+		"lastName": "Kubicka",
+		"id": "margarete-kubick",
+		"birthYear": "1891",
+		"deathYear": "1984",
+		"lifespanString": "1891 - 1984",
+		"gender": "weiblich"
 	},
 	{
-		"lastName": "Ernst Ohle Buchhandlung, Düsseldorf",
-		"id": "ernst-ohle-buchhandlung"
+		"id": "alfred-manovill",
+		"name": "Alfred Manovill"
 	},
 	{
-		"lastName": "Photo Copie GmbH",
-		"id": "photo-copie-g-m-b-h",
-		"url": "http://d-nb.info/gnd/16313216-1"
+		"firstName": "Man",
+		"lastName": "Ray",
+		"id": "man-ray",
+		"birthYear": "1890",
+		"deathYear": "1976",
+		"lifespanString": "1890 - 1976",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/118598694"
 	},
 	{
-		"lastName": "Photographische Rundschau",
-		"id": "photographische-rundschau"
+		"lastName": "Librairie Six",
+		"id": "librairie-six"
 	},
 	{
-		"firstName": "Fritz",
-		"lastName": "Matthies-Masuren",
-		"id": "das-atelier-des-photographen-fritz-matthies-masuren",
-		"birthYear": "1873",
-		"deathYear": "1938",
-		"lifespanString": "1873 - 1938",
-		"gender": "männlich"
+		"lastName": "Raoul Hausmann, Walter Heisig",
+		"id": "walter-heisig"
 	},
 	{
-		"lastName": "Hofbuchdruckerei von C. Dünnhaupt G.m.b.H.",
-		"id": "hofbuchdruckerei-von-c-duennhaupt-g-m-b-h"
+		"firstName": "Stanislaw",
+		"lastName": "Kubicki",
+		"id": "stanislaw-kubicki",
+		"birthYear": "1889",
+		"deathYear": "1943",
+		"lifespanString": "1889 - 1943",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/119084082"
 	},
 	{
 		"firstName": "Naum",
@@ -1572,107 +1570,108 @@
 		"gender": "männlich"
 	},
 	{
-		"firstName": "Claude",
-		"lastName": "Spaak",
-		"id": "societe-auxiliaire-des-expositions-du-palais-des-beaux-arts-claude-spaak",
-		"birthYear": "1904",
-		"deathYear": "1990",
-		"lifespanString": "1904 - 1990",
-		"gender": "männlich"
-	},
-	{
-		"firstName": "Wolfgang",
-		"lastName": "Herrmann",
-		"id": "kunstbibliothek-wolfgang-herrmann",
-		"birthYear": "1899",
-		"deathYear": "1995",
-		"lifespanString": "1899 - 1995",
+		"firstName": "Hermann",
+		"lastName": "Schüller",
+		"id": "hermann-schueller",
 		"gender": "männlich",
-		"url": "http://d-nb.info/gnd/116752149"
+		"url": "http://d-nb.info/gnd/1051461901"
 	},
 	{
-		"id": "die-redaktion-die-aktion",
-		"name": "die Redaktion Die Aktion"
+		"id": "kaethe-steinitz",
+		"name": "Käthe Steinitz"
 	},
 	{
-		"firstName": "Walter",
-		"lastName": "Stern",
-		"id": "walter-stern"
+		"id": "secession-berlin",
+		"name": "Secession Berlin"
 	},
 	{
-		"id": "terramare-office-richard-f-robinow",
-		"name": "Terramare Office / Richard F. Robinow"
+		"lastName": "Atelier Roscher",
+		"id": "atelier-roscher"
 	},
 	{
-		"lastName": "Verlag Robert & Bruno Schultz",
-		"id": "bruno-schultz-verlag-robert-and-bruno-schultz"
-	},
-	{
-		"id": "das-deutsche-lichtbild",
-		"name": "Das Deutsche Lichtbild"
-	},
-	{
-		"lastName": "Berliner Volkszeitung",
-		"id": "volk"
-	},
-	{
-		"lastName": "Reichspatentamt Berlin",
-		"id": "reich"
-	},
-	{
-		"id": "politische-monatshefte",
-		"name": "Politische Monatshefte"
-	},
-	{
-		"lastName": "Wauckosin&Co., Photo-Spezialitäten-Optik",
-		"id": "wauckosin-and-co"
-	},
-	{
-		"lastName": "Wauckosin&Co., Photo-Spezialitäten-Optik",
-		"id": "photo-spezialitaeten-optik"
-	},
-	{
-		"id": "werkbund-ausstellung-film",
-		"name": "Werkbund-Ausstellung Film"
-	},
-	{
-		"firstName": "Gustav",
-		"lastName": "Stotz",
-		"id": "foto-stuttgart-1929-gustaf-stotz",
-		"birthYear": "1884",
-		"deathYear": "1940",
-		"lifespanString": "1884 - 1940",
+		"firstName": "Karl",
+		"lastName": "Nierendorf",
+		"id": "karl-nierendorf",
 		"gender": "männlich"
 	},
 	{
-		"lastName": "Südwestdeutscher Rundfunk AG Frankfurt am Main",
-		"id": "westdeutscher-rundfunk-ag",
-		"birthYear": "1923",
-		"lifespanString": "1923 gegr."
+		"id": "el-lissitzky",
+		"name": "El Lissitzky"
 	},
 	{
-		"firstName": "Paul",
-		"lastName": "Westheim",
-		"id": "paul-westheim",
-		"birthYear": "1886",
-		"deathYear": "1963",
-		"lifespanString": "1886 - 1963",
+		"firstName": "Francis",
+		"lastName": "Picabia",
+		"id": "francis-picabia",
+		"birthYear": "1879",
+		"deathYear": "1953",
+		"lifespanString": "1879 - 1953",
+		"gender": "männlich"
+	},
+	{
+		"firstName": "Anselm",
+		"lastName": "Ruest",
+		"id": "anselm-ruest",
+		"birthYear": "1878",
+		"deathYear": "1943",
+		"lifespanString": "1878 - 1943",
 		"gender": "männlich",
-		"url": "https://de.wikipedia.org/wiki/Paul_Westheim"
+		"url": "http://d-nb.info/gnd/119161443"
 	},
 	{
-		"lastName": "Zeiss Ikon",
-		"id": "zeiss-ikon-a-g-abt-photo-deutschland",
-		"url": "http://d-nb.info/gnd/16315919-1"
-	},
-	{
-		"firstName": "Daniel",
-		"lastName": "Broido",
-		"id": "daniel-broido",
-		"birthYear": "1903",
-		"deathYear": "1990",
-		"lifespanString": "1903 - 1990",
+		"firstName": "Henrik",
+		"lastName": "Wolzonn",
+		"id": "henrik-wolzonn",
+		"lifespanString": "Lebensdaten nicht bekannt",
 		"gender": "männlich"
+	},
+	{
+		"id": "elfriede-lohse-waechtler",
+		"name": "Elfriede Lohse-Wächtler"
+	},
+	{
+		"id": "kurt-lohse",
+		"name": "Kurt Lohse"
+	},
+	{
+		"lastName": "Deutsche Bank und Disconto-Gesellschaft",
+		"id": "deutsche-bank",
+		"url": "http://d-nb.info/gnd/63979-5"
+	},
+	{
+		"firstName": "Walther",
+		"lastName": "Heisig",
+		"id": "walther-heisig",
+		"birthYear": "1902",
+		"deathYear": "1984",
+		"lifespanString": "1902 - 1984",
+		"gender": "männlich",
+		"url": "http://d-nb.info/gnd/140543171"
+	},
+	{
+		"lastName": "Deutsche Bank und Disconto-Gesellschaft",
+		"id": "disconto-gesellschaft",
+		"url": "http://d-nb.info/gnd/63979-5"
+	},
+	{
+		"id": "verlag-neue-jugend",
+		"name": "Verlag Neue Jugend"
+	},
+	{
+		"firstName": "Wieland",
+		"lastName": "Herzfelde",
+		"id": "wieland-herzfelde",
+		"birthYear": "1896",
+		"deathYear": "1988",
+		"lifespanString": "1896 - 1988",
+		"gender": "männlich"
+	},
+	{
+		"id": "deutsche-flossbootwerke-g-m-b-h",
+		"name": "Deutsche Flossbootwerke G.m.b.H."
+	},
+	{
+		"id": "h-ehrlich",
+		"name": "H. Ehrlich"
 	},
 	{
 		"id": "emmericher-maschinenfabrik",
@@ -1683,9 +1682,12 @@
 		"name": "Eisengießerei G.m.b.H."
 	},
 	{
-		"firstName": "Bruno",
-		"lastName": "Kaufmann",
-		"id": "bruno-kaufmann"
+		"lastName": "Malik-Verlag",
+		"id": "malik-verlag",
+		"birthYear": "1917",
+		"deathYear": "1947",
+		"lifespanString": "1917 - 1947",
+		"url": "http://d-nb.info/gnd/44419-4"
 	},
 	{
 		"lastName": "Friedrich Krupp AG",
@@ -1693,20 +1695,16 @@
 		"url": "http://d-nb.info/gnd/280119-X"
 	},
 	{
-		"firstName": "Fritz",
-		"lastName": "Warschauer",
-		"id": "fritz-warschauer",
-		"gender": "männlich"
+		"id": "otto-schmalhausen",
+		"name": "Otto Schmalhausen"
 	},
 	{
-		"lastName": "Reichspatentamt Berlin",
-		"id": "reichspatentamt-berlin"
+		"id": "robert-sennecke",
+		"name": "Robert Sennecke"
 	},
 	{
-		"firstName": "Fritz",
-		"lastName": "Warschauer",
-		"id": "fritz-warschau",
-		"gender": "männlich"
+		"id": "albert-morgenstern-erben-k-von-knoblauch",
+		"name": "Albert Morgenstern Erben /K. von Knoblauch"
 	},
 	{
 		"firstName": "Oskar",
@@ -1733,8 +1731,10 @@
 		"gender": "männlich"
 	},
 	{
-		"id": "walter-paschkewitz",
-		"name": "Walter Paschkewitz"
+		"lastName": "Akademischer Verlag Dr. Fritz Wedekind & Co.",
+		"id": "akademischer-verlag-fritz-wedekind-and-co",
+		"deathYear": "1938",
+		"lifespanString": "-1938"
 	},
 	{
 		"firstName": "Michael",
