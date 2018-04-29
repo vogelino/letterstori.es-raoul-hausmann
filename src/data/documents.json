@@ -909,19 +909,14 @@
 				{
 					"id": "suicide1",
 					"type": "annotation",
-					"content": "Wenn Du nicht sofort herunter kommst, springe ich unter die Elektrische. Einmal einmal ich flehe Dich an glaube mir - hast Du das Gewissen, mein Leben auf Dich zu nehmen? Reiß doch Dein Herz entzwei und fühle einmal was Du tust!",
+					"content": "Wenn Du nicht sofort herunter kommst, springe ich unter die Elektrische. Einmal einmal ich flehe Dich an glaube mir - hast Du das Gewissen, mein Leben auf Dich zu nehmen? Reiß doch Dein Herz ent-",
 					"pageIndex": 1,
 					"points": "1571 320 833 320 833 1003 1571 1003 1571 320"
 				},
 				{
-					"id": "placeholder-2",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
-				},
-				{
 					"id": "suicide2",
 					"type": "annotation",
-					"content": "",
+					"content": "zwei und fühle einmal was Du tust!",
 					"pageIndex": 2,
 					"points": "86.87 174.08 86.87 404.85 738.15 404.85 738.15 290.74 1147.13 290.74 1147.13 174.08 86.87 174.08"
 				},
@@ -1189,7 +1184,19 @@
 		"files": [
 			"207231_1.jpg",
 			"207231_2.jpg"
-		]
+		],
+		"story": {
+			"id": "rh-hh-relationship-extreme",
+			"elements": [
+				{
+					"id": "poem",
+					"type": "annotation",
+					"content": "So wie wir alle abhängen von der Sonne, und dem Monde, […] so hänge ich ab von Dir und bin so mit Dir verbunden und kann es nicht »vergessen«",
+					"pageIndex": 0,
+					"points": "98 176 98 394 351 394 351 324 897 324 897 176 98 176"
+				}
+			]
+		}
 	},
 	{
 		"id": "207232",
@@ -1246,7 +1253,7 @@
 					"type": "annotation",
 					"content": "Ich weiß jetzt, warum Du nicht mütterlich bist, warum Du die Türen zumachst - fühle doch, daß ich Dich liebe! Nicht blind liebe - schwer wird es schon noch sein - aber ich will Dir anders drüber helfen als bisher! Fühle doch, daß Du dazuhelfen mußt! Daß Du mich brauchen mußt! Wünsch Dir doch, daß ich bei Dir wäre!",
 					"pageIndex": 6,
-					"points": "277 650 277 741 51 741 51 1378 1206 1378 1206 650 277 650"
+					"points": "277 751 277 842 51 842 51 1479 1206 1479 1206 751 277 751"
 				}
 			]
 		}
