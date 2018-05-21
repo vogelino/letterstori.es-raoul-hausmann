@@ -36,6 +36,11 @@ type StoryElement {
 	id: String!
 	type: String!
 	content: String!
+  originalUnformattedTexts: [String]
+  shapes: [Shape]
+}
+
+type Shape {
 	pageIndex: Int
 	points: String
 }

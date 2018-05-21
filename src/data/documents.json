@@ -1203,8 +1203,15 @@
 					"id": "premonition",
 					"type": "annotation",
 					"content": "Sieh mal, auf dem Weg, auf dem Du jetzt bist, wirst Du mit Sicherheit nicht zu mir zurückfinden, Du siehst das nur noch nicht, daß Du, wenn Du mich erst 4 Wochen so entbehren kannst, so fremd, ja feindlich, daß Du mich dann überhaupt entbehren kannst.",
-					"pageIndex": 1,
-					"points": "1205 610 51 610 51 1155 286 1155 286 1052 1205 1052 1205 610"
+					"originalUnformattedTexts": [
+						"Sieh mal, auf dem Weg, auf dem Du jetzt bist, wirst Du mit Sicherheit nicht zu mir zurückfinden, Du siehst das nur noch nicht, daß Du, wenn Du mich erst 4 Wochen so entbehren kannst, so fremd, ja feindlich, daß Du mich dann überhaupt entbehren kannst."
+					],
+					"shapes": [
+						{
+							"pageIndex": 1,
+							"points": "1205 610 51 610 51 1155 286 1155 286 1052 1205 1052 1205 610"
+						}
+					]
 				},
 				{
 					"id": "main-context2",
@@ -1215,8 +1222,17 @@
 					"id": "mansplaining",
 					"type": "annotation",
 					"content": "Ich weiß jetzt, warum Du nicht mütterlich bist, warum Du die Türen zumachst - fühle doch, daß ich Dich liebe! Nicht blind liebe - schwer wird es schon noch sein - aber ich will Dir anders drüber helfen als bisher! Fühle doch, daß Du dazuhelfen mußt! Daß Du mich brauchen mußt! Wünsch Dir doch, daß ich bei Dir wäre!",
-					"pageIndex": 6,
-					"points": "277 751 277 842 51 842 51 1479 1206 1479 1206 751 277 751"
+					"originalUnformattedTexts": [
+						"Ich weiß jetzt, warum Du nicht mütterlich bist, warum Du die Türen zumachst - fühle doch, daß ich Dich liebe! Nicht blind liebe - schwer wird es schon noch sein - aber ich will Dir anders drüber helfen als bisher!",
+						"Fühle doch, daß Du dazuhelfen mußt! Daß Du mich brauchen mußt!",
+						"Wünsch Dir doch, daß ich bei Dir wäre!"
+					],
+					"shapes": [
+						{
+							"pageIndex": 6,
+							"points": "277 751 277 842 51 842 51 1479 1206 1479 1206 751 277 751"
+						}
+					]
 				}
 			]
 		}
@@ -1297,8 +1313,16 @@
 					"id": "poem",
 					"type": "annotation",
 					"content": "So wie wir alle abhängen von der Sonne, und dem Monde, […] so hänge ich ab von Dir und bin so mit Dir verbunden und kann es nicht »vergessen«",
-					"pageIndex": 0,
-					"points": "98 176 98 394 351 394 351 324 897 324 897 176 98 176"
+					"originalUnformattedTexts": [
+						"So wie wir alle abhängen von der Sonne, und dem Monde,",
+						"so hänge ich ab von Dir und bin so mit Dir verbunden und kann es nicht »vergessen«"
+					],
+					"shapes": [
+						{
+							"pageIndex": 0,
+							"points": "98 176 98 394 351 394 351 324 897 324 897 176 98 176"
+						}
+					]
 				}
 			]
 		}
@@ -1376,33 +1400,32 @@
 			"id": "rh-hh-relationship-extreme",
 			"elements": [
 				{
-					"id": "main-context",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
-				},
-				{
 					"id": "thanks",
 					"type": "annotation",
 					"content": "Für diesen Abend des 13. März will ich Dir noch danken, an dem du so mütterlich an Deiner Brust mich beruhigtest ...",
-					"pageIndex": 0,
-					"points": "153.41 115.1 153.41 444.59 266.23 444.59 266.23 371.51 1077.77 371.51 1077.77 115.1 153.41 115.1"
-				},
-				{
-					"id": "placeholder-1",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
+					"originalUnformattedTexts": [
+						"Für diesen Abend des 13. März will ich Dir noch danken, an dem du so mütterlich an Deiner Brust mich beruhigtest"
+					],
+					"shapes": [
+						{
+							"pageIndex": 0,
+							"points": "153.41 115.1 153.41 444.59 266.23 444.59 266.23 371.51 1077.77 371.51 1077.77 115.1 153.41 115.1"
+						}
+					]
 				},
 				{
 					"id": "apology",
 					"type": "annotation",
 					"content": "Und Du vergebe mir, daß ich am nächsten Tage den Wechsel in Deinem Wesen nicht besser ertrug und tiefer verstand.",
-					"pageIndex": 0,
-					"points": "153.41 856.13 153.41 1122.8 393.15 1122.8 393.15 1049.72 1077.77 1049.72 1077.77 856.13 153.41 856.13"
-				},
-				{
-					"id": "placeholder-2",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
+					"originalUnformattedTexts": [
+						"Und Du vergebe mir, daß ich am nächsten Tage den Wechsel in Deinem Wesen nicht besser ertrug und tiefer verstand."
+					],
+					"shapes": [
+						{
+							"pageIndex": 0,
+							"points": "153.41 856.13 153.41 1122.8 393.15 1122.8 393.15 1049.72 1077.77 1049.72 1077.77 856.13 153.41 856.13"
+						}
+					]
 				}
 			]
 		}
@@ -1631,40 +1654,36 @@
 			"id": "rh-hh-relationship-extreme",
 			"elements": [
 				{
-					"id": "main-context",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
-				},
-				{
 					"id": "suicideintro",
 					"type": "annotation",
 					"content": "Du glaubst, ich kann mir nichts tun, woanders? Mir liegt an meinem Leben garnichts - wenn Du mich nicht verstehst. Verstehen willst, ...",
-					"pageIndex": 0,
-					"points": "71.36 244.59 71.36 831.77 350.85 831.77 350.85 751 1163.67 751 1163.67 244.59 71.36 244.59"
-				},
-				{
-					"id": "placeholder-1",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
+					"originalUnformattedTexts": [
+						"Du glaubst, ich kann mir nichts tun, woanders? Mir liegt an meinem Leben garnichts - wenn Du mich nicht verstehst."
+					],
+					"shapes": [
+						{
+							"pageIndex": 0,
+							"points": "71.36 244.59 71.36 831.77 350.85 831.77 350.85 751 1163.67 751 1163.67 244.59 71.36 244.59"
+						}
+					]
 				},
 				{
 					"id": "suicide1",
 					"type": "annotation",
-					"content": "Wenn Du nicht sofort herunter kommst, springe ich unter die Elektrische. Einmal einmal ich flehe Dich an glaube mir - hast Du das Gewissen, mein Leben auf Dich zu nehmen? Reiß doch Dein Herz ent-",
-					"pageIndex": 1,
-					"points": "1571 320 833 320 833 1003 1571 1003 1571 320"
-				},
-				{
-					"id": "suicide2",
-					"type": "annotation",
-					"content": "zwei und fühle einmal was Du tust!",
-					"pageIndex": 2,
-					"points": "86.87 174.08 86.87 404.85 738.15 404.85 738.15 290.74 1147.13 290.74 1147.13 174.08 86.87 174.08"
-				},
-				{
-					"id": "placeholder-3",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
+					"content": "Wenn Du nicht sofort herunter kommst, springe ich unter die Elektrische. Einmal einmal ich flehe Dich an glaube mir - hast Du das Gewissen, mein Leben auf Dich zu nehmen? Reiß doch Dein Herz entzwei und fühle einmal was Du tust!",
+					"originalUnformattedTexts": [
+						"Wenn Du nicht sofort herunter kommst, springe ich unter die Elektrische. Einmal einmal ich flehe Dich an glaube mir - hast Du das Gewissen, mein Leben auf Dich zu nehmen? Reiß doch Dein Herz entzwei und fühle einmal was Du tust!"
+					],
+					"shapes": [
+						{
+							"pageIndex": 1,
+							"points": "1571 320 833 320 833 1003 1571 1003 1571 320"
+						},
+						{
+							"pageIndex": 2,
+							"points": "86.87 174.08 86.87 404.85 738.15 404.85 738.15 290.74 1147.13 290.74 1147.13 174.08 86.87 174.08"
+						}
+					]
 				}
 			]
 		}
@@ -1697,33 +1716,26 @@
 			"id": "rh-hh-relationship-extreme",
 			"elements": [
 				{
-					"id": "main-context",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
-				},
-				{
 					"id": "violence",
 					"type": "annotation",
 					"content": "Und die sexuelle Spannung wurde so stark, daß wir uns mit Worten zerrissen, und ich Dich schlug, weil ich schließlich ein stärkerer Mensch bin, radikaler als Du, un-heimlich.",
-					"pageIndex": 1,
-					"points": "606.46 345.32 606.46 383.16 50.32 383.16 50.32 611.98 388.91 611.98 388.91 568.25 768.74 568.25 768.74 345.32 606.46 345.32"
-				},
-				{
-					"id": "placeholder-1",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
+					"shapes": [
+						{
+							"pageIndex": 1,
+							"points": "606.46 345.32 606.46 383.16 50.32 383.16 50.32 611.98 388.91 611.98 388.91 568.25 768.74 568.25 768.74 345.32 606.46 345.32"
+						}
+					]
 				},
 				{
 					"id": "herfault",
 					"type": "annotation",
 					"content": "Daß unser Leben, unsere Beziehungen so ausliefen wie sie es taten, rührt daher, daß Du nicht begreifst, daß meine Schläge von Deiner unruhigen Sexualität hervorgerufen sind. Es ist Gewalt, aber sexuelle - also beiderseitige.",
-					"pageIndex": 1,
-					"points": "1126.63 138.3 1126.63 190.05 831.89 190.05 831.89 496.19 1097.68 496.19 1097.68 451.46 1563.47 451.46 1563.47 138.3 1126.63 138.3"
-				},
-				{
-					"id": "placeholder-2",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
+					"shapes": [
+						{
+							"pageIndex": 1,
+							"points": "1126.63 138.3 1126.63 190.05 831.89 190.05 831.89 496.19 1097.68 496.19 1097.68 451.46 1563.47 451.46 1563.47 138.3 1126.63 138.3"
+						}
+					]
 				}
 			]
 		}
@@ -1845,26 +1857,19 @@
 			"id": "rh-hh-relationship-extreme",
 			"elements": [
 				{
-					"id": "main-context",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
-				},
-				{
 					"id": "reflection",
 					"type": "annotation",
 					"content": "Was bin ich für ein Mensch? Nicht »Christus« - aber ich halte dafür, daß ich einmal mehr Bedeutung für die Menschen haben werde, als etwa Comenius[2], oder Böhme[3]. Wenn sich nicht herausstellen sollte - daß ich der einzige wirklich anti-europäische, materialistisch und »real« befangene Mensch bin, den es um 1918 gibt.\nDaß ich zu Brutalität neige - wer muß die reizen? Ich bin nicht Buddha, der erhabne Erleuchtete, aber ich kämpfe gegen meine Brutalität.",
-					"pageIndex": 0,
-					"points": "478 607 478 657 132 657 132 1217 894 1217 894 1169 1264 1169 1264 607 478 607"
-				},
-				{
-					"id": "placeholder-1",
-					"type": "context",
-					"content": "[2]"
-				},
-				{
-					"id": "placeholder-2",
-					"type": "context",
-					"content": "[3]"
+					"originalUnformattedTexts": [
+						"Was bin ich für ein Mensch? Nicht »Christus« - aber ich halte dafür, daß ich einmal mehr Bedeutung für die Menschen haben werde, als etwa Comenius[2], oder Böhme[3]. Wenn sich nicht herausstellen sollte - daß ich der einzige wirklich anti-europäische, materialistisch und »real« befangene Mensch bin, den es um 1918 gibt.",
+						"Daß ich zu Brutalität neige - wer muß die reizen? Ich bin nicht Buddha, der erhabne Erleuchtete, aber ich kämpfe gegen meine Brutalität."
+					],
+					"shapes": [
+						{
+							"pageIndex": 0,
+							"points": "478 607 478 657 132 657 132 1217 894 1217 894 1169 1264 1169 1264 607 478 607"
+						}
+					]
 				}
 			]
 		}
@@ -4540,16 +4545,15 @@
 			"id": "rh-hh-relationship-extreme",
 			"elements": [
 				{
-					"id": "main-context",
-					"type": "context",
-					"content": "Dies ist ein Platzhaltertext der noch durch eine echte Textanalyse ersetzt werden muss."
-				},
-				{
 					"id": "senegalneutral",
 					"type": "annotation",
 					"content": "Seien Sie überzeugt daß wir Sie und Frl. Höch sehr gern haben, und daß wir uns sehr freuen würden wenn sehr bald eine Verständigung zwischen Ihnen zustande kommt denn Sie Beide gehören zusammen - Weil wir Sie Beide lieben dürfen wir uns nicht hineinmengen. Begreifen Sie das!",
-					"pageIndex": 0,
-					"points": "721 516.89 721 585.89 99 585.89 99 1278.89 688 1278.89 688 1202.89 986 1202.89 986 516.89 721 516.89"
+					"shapes": [
+						{
+							"pageIndex": 0,
+							"points": "721 516.89 721 585.89 99 585.89 99 1278.89 688 1278.89 688 1202.89 986 1202.89 986 516.89 721 516.89"
+						}
+					]
 				}
 			]
 		}
