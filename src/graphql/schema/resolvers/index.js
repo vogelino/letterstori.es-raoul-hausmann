@@ -24,6 +24,22 @@ const findSiblingDocumentsInStory = (docId, storyId) => {
 	};
 };
 
+const findStoryDetails = (storyId) =>
+	storiesData.find(({ id: idInStories }) => idInStories === storyId);
+
+const findStoryCorrespondents = (storyId) => Object.values(
+	documentsData
+		.filter(({ story: docStory }) => docStory && docStory.id === storyId)
+		.reduce((acc, doc) => {
+			const docRecipients = resolveEntityReferenceList('recipients')(doc);
+			const docSenders = resolveEntityReferenceList('senders')(doc);
+			docRecipients.concat(docSenders).forEach((entity) => {
+				acc[entity.id] = entity;
+			});
+			return acc;
+		}, {})
+);
+
 const resolvers = {
 	Query: Object.assign({},
 		createGettersByType('document', documentsData),
@@ -40,14 +56,15 @@ const resolvers = {
 		files: ({ files }) => files,
 		story: ({ story, id: docId }) => {
 			if (!story) return null;
-			const storyDetails = storiesData.find(({ id: idInStories }) => idInStories === story.id);
-			const extendedStory = Object.assign(
+			return Object.assign(
 				{},
 				story,
-				(storyDetails || {}),
 				findSiblingDocumentsInStory(docId, story.id),
+				{
+					storyDetails: findStoryDetails(story.id) || {},
+					correspondents: findStoryCorrespondents(story.id),
+				},
 			);
-			return extendedStory;
 		},
 	},
 };

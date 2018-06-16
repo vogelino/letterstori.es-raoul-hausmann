@@ -30,6 +30,7 @@ type DocumentStory {
   nextDocumentInStory: String
   prevDocumentInStory: String
 	elements: [StoryElement]
+  correspondents: [Entity]
 }
 
 type StoryElement {
