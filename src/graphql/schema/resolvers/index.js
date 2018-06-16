@@ -56,13 +56,14 @@ const resolvers = {
 		files: ({ files }) => files,
 		story: ({ story, id: docId }) => {
 			if (!story) return null;
+			console.log(findStoryDetails(story.id)); // eslint-disable-line
 			return Object.assign(
 				{},
 				story,
+				findStoryDetails(story.id) || {},
 				findSiblingDocumentsInStory(docId, story.id),
 				{
-					storyDetails: findStoryDetails(story.id) || {},
-					correspondents: findStoryCorrespondents(story.id),
+					correspondents: findStoryCorrespondents(story.id) || [],
 				},
 			);
 		},
