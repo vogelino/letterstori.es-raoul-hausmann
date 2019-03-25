@@ -1,8 +1,8 @@
-import camelCase from 'camelcase';
-import { plural } from 'pluralize';
-import entitiesData from '../../../data/entities.json';
-import documentsData from '../../../data/documents.json';
-import storiesData from '../../../data/stories.json';
+const camelCase = require('camelcase');
+const { plural } = require('pluralize');
+const entitiesData = require('../data/entities');
+const documentsData = require('../data/documents');
+const storiesData = require('../data/stories');
 
 const resolveEntityReferenceList = (docKey) => (doc) => (doc[docKey] || []).map((id) =>
 	entitiesData.find((entity) => id === entity.id)
@@ -70,4 +70,4 @@ const resolvers = {
 	},
 };
 
-export default resolvers;
+module.exports = resolvers;

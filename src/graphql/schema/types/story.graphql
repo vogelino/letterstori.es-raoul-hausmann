@@ -1,7 +1,0 @@
-type Story {
-  id: String!
-  title: String!
-  summary: String!
-  description: String!
-  color: String!
-}
