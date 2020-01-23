@@ -11,9 +11,7 @@
 	"repository": "git@github.com:vogelino/raoul-hausmann-server.git",
 	"license": "MIT",
 	"private": true,
-	"scripts": {
-		"start": "node index.js"
-	},
+	"main": "index.js",
 	"engines": {
 		"node": "12.14.1"
 	},
