@@ -51,7 +51,11 @@ const resolvers = {
 		senders: resolveEntityReferenceList('senders'),
 		recipients: resolveEntityReferenceList('recipients'),
 		entityMentions: resolveEntityReferenceList('entityMentions'),
-		date: ({ date }) => new Date(date).toISOString(),
+		date: ({ date }) => {
+			const parsedDate = Date.parse(date);
+			const dateObj = isNaN(parsedDate) ? new Date('01/01/1919') : new Date(date);
+			return dateObj.toISOString();
+		},
 		thumbnail: ({ files }) => `${process.env.IMAGE_SMALL_BASE_URL}${files[0]}`,
 		files: ({ files }) => files,
 		story: ({ story, id: docId }) => {
