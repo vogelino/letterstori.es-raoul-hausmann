@@ -1,11 +1,12 @@
-import React from "react";
+import Layout from '../components/stateful/Layout';
+import AppHeader from '../components/stateful/AppHeader';
+import AppContent from '../components/stateful/AppContent';
 
-const Home = () => (
-  <div>
-    <h1>Apollo Server Vercel Demo</h1>
-    <a href="/api/demo">GraphQL Playground</a>
-  </div>
+const App = () => (
+	<Layout>
+		<AppHeader />
+		<AppContent />
+	</Layout>
 );
 
-export default Home;
-
+export default App;
