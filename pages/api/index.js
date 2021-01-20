@@ -7,12 +7,12 @@ const server = new ApolloServer({
 	resolvers,
 	introspection: true,
 	playground: true,
-});
-
-export default server.createHandler({
-	cors: {
-		origin: '*',
-		credentials: true
+	headers: {
+		'Content-Type': 'application/json',
+		'Access-Control-Allow-Origin': '*',
+		'Access-Control-Allow-Credentials': true,
 	},
 });
+
+export default server.createHandler();
 
