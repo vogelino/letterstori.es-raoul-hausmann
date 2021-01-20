@@ -2,6 +2,10 @@
 	"name": "raoul-hausmann-server",
 	"version": "1.0.0",
 	"description": "The graphql server of vogelino/raoul-hausmann-correspondence",
+	"scripts": {
+		"dev": "nodemon api/index.js",
+		"start": "node api/index.js"
+	},
 	"authors": [
 		"Lucas Vogel @vogelino <contact@vogelino.com> (https://vogelino.com)",
 		"Caspar Kirsch @kernfruit <caspar.kirsch@gmail.com> (https://github.com/kernfruit)",
@@ -11,9 +15,9 @@
 	"repository": "git@github.com:vogelino/raoul-hausmann-server.git",
 	"license": "MIT",
 	"private": true,
-	"main": "index.js",
+	"main": "api/index.js",
 	"engines": {
-		"node": "12.14.1"
+		"node": "12.19.0"
 	},
 	"dependencies": {
 		"apollo-server": "^2.4.8",
@@ -23,5 +27,7 @@
 		"graphql": "^14.1.1",
 		"pluralize": "^7.0.0"
 	},
-	"devDependencies": {}
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
 }

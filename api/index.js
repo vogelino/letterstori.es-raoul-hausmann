@@ -18,7 +18,7 @@ const server = new ApolloServer({
 server.listen({ port: 3001 }).then(({ url }) => {
 	const log = console.log; // eslint-disable-line
 	log('\n');
-	log(chalk.bgGreen.black(`Server listening on ${url}/ ..`));
+	log(chalk.bgGreen.black(`Server listening on ${url} ..`));
 	log('\n');
 
 	log(`${chalk.blue('/graphql')}  - endpoint for queries`);
