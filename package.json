@@ -3,8 +3,9 @@
 	"version": "1.0.0",
 	"description": "The graphql server of vogelino/raoul-hausmann-correspondence",
 	"scripts": {
-		"dev": "nodemon api/index.js",
-		"start": "node api/index.js"
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
 	},
 	"authors": [
 		"Lucas Vogel @vogelino <contact@vogelino.com> (https://vogelino.com)",
@@ -20,14 +21,14 @@
 		"node": "12.19.0"
 	},
 	"dependencies": {
+		"@saeris/apollo-server-vercel": "^0.4.0",
 		"apollo-server": "^2.4.8",
 		"camelcase": "^5.0.0",
-		"chalk": "^2.1.0",
-		"dotenv": "^5.0.1",
-		"graphql": "^14.1.1",
-		"pluralize": "^7.0.0"
+		"graphql": "^14.7.0",
+		"next": "^10.0.5",
+		"pluralize": "^7.0.0",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
 	},
-	"devDependencies": {
-		"nodemon": "^2.0.7"
-	}
+	"devDependencies": {}
 }

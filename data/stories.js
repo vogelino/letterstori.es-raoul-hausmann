@@ -1,4 +1,4 @@
-module.exports = [
+export default [
 	{
 		id: 'rh-hh-relationship-extreme',
 		title: 'Raoul Hausmann und Hannah Höch – Eine Beziehung in Extremen',
