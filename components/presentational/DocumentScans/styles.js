@@ -7,6 +7,7 @@ export const Scan = styled.img`
 	width: 100%;
 	height: auto;
 	max-height: 200rem;
+	min-height: 50vh;
 	transition: filter 200ms ease-out;
 	filter: blur(${({ isLoaded }) => (isLoaded ? '0' : '1rem')});
 `;

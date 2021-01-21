@@ -14,6 +14,7 @@ export const Wrapper = styled.section`
 export const Content = styled.section`
 	position: relative;
 	width: 100%;
+	min-height: 100vh;
 	padding: 2rem;
 	color: white; /* provisory */
 	z-index: 1;
