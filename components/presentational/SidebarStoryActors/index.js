@@ -7,7 +7,7 @@ const ActorWithoutTooltip = ({ id, name, lastName, firstName }) => (
 	<Actor
 		firstName={name || firstName || '?'}
 		lastName={lastName || '?'}
-		imageUrl={`${process.env.IMAGES_SERVER_URL}/entities/${id}.jpg`}
+		imageUrl={`${process.env.NEXT_PUBLIC_IMAGES_SERVER_URL}/entities/${id}.jpg`}
 	/>
 );
 
@@ -21,7 +21,12 @@ const ActorWithTooltip = ({ id, firstName, lastName, name }) => (
 
 ActorWithTooltip.propTypes = Actor.propTypes;
 
-const SidebarStoryActors = ({ className, storyActorsArr, isSmall, showNames }) => {
+const SidebarStoryActors = ({
+	className,
+	storyActorsArr,
+	isSmall,
+	showNames,
+}) => {
 	const actors = storyActorsArr.map((actor) => (
 		<ActorWrapper key={actor.id} isSmall={isSmall}>
 			{showNames && (
@@ -29,7 +34,11 @@ const SidebarStoryActors = ({ className, storyActorsArr, isSmall, showNames }) =
 					{actor.firstName || actor.name} {actor.lastName}
 				</ActorName>
 			)}
-			{showNames ? <ActorWithoutTooltip {...actor} /> : <ActorWithTooltip {...actor} />}
+			{showNames ? (
+				<ActorWithoutTooltip {...actor} />
+			) : (
+				<ActorWithTooltip {...actor} />
+			)}
 		</ActorWrapper>
 	));
 

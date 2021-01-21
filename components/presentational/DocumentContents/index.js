@@ -30,7 +30,8 @@ LazyDocumentScans.propTypes = {
 	largeUrl: DocumentScans.propTypes.largeUrl,
 };
 
-const shapeHasIndex = (index) => pipe(prop('shapes'), find(propEq('pageIndex', index)));
+const shapeHasIndex = (index) =>
+	pipe(prop('shapes'), find(propEq('pageIndex', index)));
 
 const hasShapeWithIndex = (index) => and(has('shapes'), shapeHasIndex(index));
 
@@ -47,7 +48,9 @@ const DocumentContents = ({
 	const storyElements = defaultTo([], path(['elements'], story));
 	const onlyAnnotations = filter(propEq('type', 'annotation'), storyElements);
 	return (
-		<Wrapper documentInformationsSidebarIsOpen={documentInformationsSidebarIsOpen}>
+		<Wrapper
+			documentInformationsSidebarIsOpen={documentInformationsSidebarIsOpen}
+		>
 			<Sticky top={48} innerZ={2}>
 				<DocumentContentsHeader />
 			</Sticky>
@@ -70,8 +73,8 @@ const DocumentContents = ({
 								pageIndex={index}
 								annotations={filter(hasShapeWithIndex(index), onlyAnnotations)}
 								key={file}
-								smallUrl={`${process.env.IMAGES_SERVER_URL}/s/${file}`}
-								largeUrl={`${process.env.IMAGES_SERVER_URL}/l/${file}`}
+								smallUrl={`${process.env.NEXT_PUBLIC_IMAGES_SERVER_URL}/s/${file}`}
+								largeUrl={`${process.env.NEXT_PUBLIC_IMAGES_SERVER_URL}/l/${file}`}
 								hoverAnnotation={hoverAnnotation}
 								hoveredAnnotationId={hoveredAnnotationId}
 								storyColor={story && story.color}

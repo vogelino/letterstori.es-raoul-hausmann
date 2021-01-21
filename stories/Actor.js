@@ -17,7 +17,7 @@ const addActorStory = () => {
 				<Actor
 					firstName="Raoul"
 					lastName="Hausmann"
-					imageUrl={`${process.env.IMAGES_SERVER_URL}/entities/raoul-hausmann.jpg`}
+					imageUrl={`${process.env.NEXT_PUBLIC_IMAGES_SERVER_URL}/entities/raoul-hausmann.jpg`}
 				/>
 			</FigmaPreview>
 		));
