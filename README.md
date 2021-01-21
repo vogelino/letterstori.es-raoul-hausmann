@@ -4,8 +4,8 @@ This interactive data visualisation highlights interesting letter exchanges betw
 ## Run the project locally
 **Clone the repository**:
 ```sh
-git clone git@github.com:vogelino/raoul-hausmann-correspondence.git
-cd raoul-hausmann-correspondence/
+git clone git@github.com:vogelino/letterstori.es-raoul-hausmann.git
+cd letterstori.es-raoul-hausmann
 ```
 
 **Install the NPM dependencies**:
