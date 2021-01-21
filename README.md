@@ -1,5 +1,5 @@
-# Raoul Hausmann Correspondence
-This interactive data visualisation highlights interesting letter exchanges between [Raoul Hausmann](https://en.wikipedia.org/wiki/Raoul_Hausmann) and other stakeholders. Based on the rich collection of the Berlinische Galerie, the web-based app allows to discover the personal correspondence of the very know Dada artist. From love stories to professional communication, the letters contain many interesting and valuable information about Hausmann and its entourage.
+# Letterstori.es — Raoul Hausmann 
+This interactive data visualisation highlights interesting letter exchanges between [Raoul Hausmann](https://en.wikipedia.org/wiki/Raoul_Hausmann) and other stakeholders. Based on the rich collection of the [Berlinische Galerie](https://berlinischegalerie.de/), the web-based app allows to discover the personal correspondence of the very know Dada artist. From love stories to professional communication, the letters contain many interesting and valuable information about Hausmann and its entourage.
 
 ## Run the project locally
 **Clone the repository**:
