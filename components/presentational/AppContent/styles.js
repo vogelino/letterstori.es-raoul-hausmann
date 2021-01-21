@@ -18,5 +18,5 @@ export const DocumentDrawerContainer = styled.section`
 	width: 100%;
 	top: translateY(${({ documentIsOpen }) => (documentIsOpen ? '0' : '100vh')});
 	transition: transform 200ms 200ms ease-in-out;
-	z-index: 2;
+	z-index: 4;
 `;
