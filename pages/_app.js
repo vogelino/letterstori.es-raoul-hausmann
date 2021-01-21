@@ -19,6 +19,7 @@ const MyApp = ({ Component, pageProps }) => (
 			<meta property="og:title" content="Letterstori.es – Raoul Hausmann" />
 			<meta property="og:url" content="https://hausmann.letterstori.es" />
 			<meta property="og:image" content="/images/og-hausmann.png" />
+			<meta property="og:type" content="website" />
 		</Head>
 		{globalStyles}
 		<Component {...pageProps} />
