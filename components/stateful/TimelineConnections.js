@@ -51,7 +51,6 @@ class StatefulTimelineConnection extends Component {
 	}
 
 	componentDidMount() {
-		console.log(process.env);
 		this.canvasApp = createCanvas(this.canvasNode);
 		this.hitGraph = createCanvas(this.hitGraphNode);
 		this.canvasApp.scale(window.devicePixelRatio, window.devicePixelRatio);
