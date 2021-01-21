@@ -1,12 +1,6 @@
-import Layout from '../components/stateful/Layout';
-import AppHeader from '../components/stateful/AppHeader';
-import AppContent from '../components/stateful/AppContent';
+import React from 'react';
+import Homepage from '../components/pages/Homepage';
 
-const App = () => (
-	<Layout>
-		<AppHeader />
-		<AppContent />
-	</Layout>
-);
+const Home = () => <Homepage />;
 
-export default App;
+export default Home;

@@ -1,23 +1,18 @@
 import React from 'react';
 import AppHeader from '../presentational/AppHeader';
 
-export default () => (
+const StatefulAppHeader = () => (
 	<AppHeader
 		links={[
 			{
 				id: 'info',
-				onClick: () => {},
+				href: '/',
 				text: 'Über das Projekt',
 				title: 'Mehr informationen über Letterstori.es',
-				isActive: false,
-			},
-			{
-				id: 'legal',
-				onClick: () => {},
-				text: 'Impressum',
-				title: 'Rechtliches',
 				isActive: false,
 			},
 		]}
 	/>
 );
+
+export default StatefulAppHeader;

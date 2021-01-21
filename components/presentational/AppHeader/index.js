@@ -7,8 +7,8 @@ const AppHeader = ({ links }) => (
 		<Title>
 			<Bold>LetterStori.es </Bold>Raoul Hausmann
 		</Title>
-		{links.map(({ text, onClick, ...rest }) => (
-			<Link key={text} onClick={rest.isActive ? () => null : onClick} {...rest}>
+		{links.map(({ text, ...rest }) => (
+			<Link key={text} {...rest}>
 				{text}
 			</Link>
 		))}
@@ -23,7 +23,7 @@ AppHeader.propTypes = {
 	links: PropTypes.arrayOf(
 		PropTypes.shape({
 			title: PropTypes.string.isRequired,
-			onClick: PropTypes.func.isRequired,
+			href: PropTypes.string.isRequired,
 			text: PropTypes.string.isRequired,
 		}),
 	),
