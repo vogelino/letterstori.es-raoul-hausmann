@@ -91,5 +91,5 @@ We strictly stick to the rule “one component per file”. Except of type disti
 _Based on [adamsoffer/next-apollo-example](https://github.com/adamsoffer/next-apollo-example) repository_
 
 
-# GraphQL Server)
+# Data served via a GraphQL Server
 An [Apollo Graphql](https://www.apollographql.com/) server is exposed as a serverless function at the route `/api/grapqhl` and serves the data of the visualisation. 
