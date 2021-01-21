@@ -28,9 +28,11 @@ const AppContent = ({
 				selectStory={selectStory}
 			/>
 		</TimelineContainer>
-		<DocumentDrawerContainer documentIsOpen={Boolean(selectedDocumentId)}>
-			<DocumentDrawer {...props} />
-		</DocumentDrawerContainer>
+		{selectedDocumentId && (
+			<DocumentDrawerContainer documentIsOpen={Boolean(selectedDocumentId)}>
+				<DocumentDrawer {...props} />
+			</DocumentDrawerContainer>
+		)}
 	</Wrapper>
 );
 

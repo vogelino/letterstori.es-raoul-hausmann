@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Image from 'next/image';
 import { pipe, propEq, map, filter } from 'ramda';
-import { Scan, ScansContainer, StoryPolygonContainer, StoryPolygon } from './styles';
+import { ScansContainer, StoryPolygonContainer, StoryPolygon } from './styles';
 
 const DocumentScans = ({
 	isLoaded,
@@ -17,9 +18,8 @@ const DocumentScans = ({
 	pageIndex,
 }) => (
 	<ScansContainer>
-		{annotations &&
-			width &&
-			height && (
+		{annotations && width && height && (
+			<>
 				<StoryPolygonContainer viewBox={`0 0 ${width} ${height}`}>
 					{showAnnotations &&
 						map(
@@ -42,8 +42,14 @@ const DocumentScans = ({
 							annotations,
 						)}
 				</StoryPolygonContainer>
-			)}
-		<Scan isLoaded={isLoaded} src={isLoaded ? largeUrl : smallUrl} />
+				<Image
+					src={largeUrl}
+					width={width}
+					height={height}
+					layout="responsive"
+				/>
+			</>
+		)}
 	</ScansContainer>
 );
 

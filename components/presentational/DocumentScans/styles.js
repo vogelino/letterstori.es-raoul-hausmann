@@ -3,15 +3,6 @@ import { createVariableGetter } from '../../../lib/styleUtil';
 
 const getVar = createVariableGetter('documentDetail');
 
-export const Scan = styled.img`
-	width: 100%;
-	height: auto;
-	max-height: 200rem;
-	min-height: 50vh;
-	transition: filter 200ms ease-out;
-	filter: blur(${({ isLoaded }) => (isLoaded ? '0' : '1rem')});
-`;
-
 export const ScansContainer = styled.div`
 	margin: 0 auto 6rem auto;
 	overflow: hidden;
