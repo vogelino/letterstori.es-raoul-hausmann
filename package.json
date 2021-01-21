@@ -14,7 +14,6 @@
 		"lint": "eslint ./src",
 		"lint-fix": "eslint --fix ./src",
 		"prettier": "prettier --write --config .prettierrc ./src/**/*.js",
-		"now-build": "react-app-rewired build",
 		"test": "next test --env=jsdom",
 		"storybook": "start-storybook -s ./static -p 3002 -c .storybook",
 		"create-svg-sprite": "svg-sprite-generate -d ./icons -o ./icons/icons-sprite.svg",
