@@ -3,7 +3,6 @@ dist/*
 .DS_Store
 .env*
 now.json
-public
 
 .vercel
 .next
