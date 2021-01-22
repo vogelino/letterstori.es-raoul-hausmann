@@ -44,6 +44,8 @@ const DocumentContents = ({
 	hoverAnnotation,
 	hoveredAnnotationId,
 	documentInformationsSidebarIsOpen,
+	width,
+	height,
 }) => {
 	const storyElements = defaultTo([], path(['elements'], story));
 	const onlyAnnotations = filter(propEq('type', 'annotation'), storyElements);
@@ -73,7 +75,8 @@ const DocumentContents = ({
 								pageIndex={index}
 								annotations={filter(hasShapeWithIndex(index), onlyAnnotations)}
 								key={file}
-								smallUrl={`${process.env.NEXT_PUBLIC_IMAGES_SERVER_URL}/s/${file}`}
+								documentWidth={width}
+								documentHeight={height}
 								largeUrl={`${process.env.NEXT_PUBLIC_IMAGES_SERVER_URL}/l/${file}`}
 								hoverAnnotation={hoverAnnotation}
 								hoveredAnnotationId={hoveredAnnotationId}

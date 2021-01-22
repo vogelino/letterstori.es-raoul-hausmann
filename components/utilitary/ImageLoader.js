@@ -22,6 +22,17 @@ ImageLoader.propTypes = {
 
 const imagesMemo = new Map();
 
+const DISPLAY_WIDTH = 1024;
+
+const calculateRatio = (initialWidth, initialHeight) => {
+	const ratio = initialHeight / initialWidth;
+	const newHeight = ratio * DISPLAY_WIDTH;
+	return {
+		width: DISPLAY_WIDTH,
+		height: newHeight,
+	};
+};
+
 export default compose(
 	withState('isLoaded', 'setLoadedState', false),
 	withState('error', 'setErrorState', undefined),
@@ -33,6 +44,8 @@ export default compose(
 				src,
 				isLoaded,
 				error,
+				documentHeight,
+				documentWidth,
 				setWidth,
 				setHeight,
 				setLoadedState,
@@ -46,18 +59,27 @@ export default compose(
 				setHeight(imageInMemo.height);
 				return;
 			}
+
+			if (documentWidth && documentHeight) {
+				const { width, height } = calculateRatio(documentWidth, documentHeight);
+				setHeight(height);
+				setWidth(width);
+				setLoadedState(true);
+				imagesMemo.set(src, { width, height });
+				return;
+			}
 			this.image = new Image();
 			loadImage(src, this.image)
 				.then(({ currentTarget }) => {
 					if (!this.image || isLoaded || error) return;
 					setLoadedState(true);
-					const width = 1024;
-					const ratio =
-						currentTarget.naturalHeight / currentTarget.naturalWidth;
-					const newHeight = ratio * width;
+					const { width, height } = calculateRatio(
+						currentTarget.naturalWidth,
+						currentTarget.naturalHeight,
+					);
 					setWidth(width);
-					setHeight(newHeight);
-					imagesMemo.set(src, { width, height: newHeight });
+					setHeight(height);
+					imagesMemo.set(src, { width, height });
 				})
 				.catch((err) => {
 					if (!this.image || isLoaded || error) return;

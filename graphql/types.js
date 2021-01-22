@@ -9,8 +9,8 @@ export default gql`
 		title: String
 		date: String
 		type: String
-		height: Int
-		width: Int
+		height: Float
+		width: Float
 		materialOrTechnique: String
 		description: String
 		transcription: String
