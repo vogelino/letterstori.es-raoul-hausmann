@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"description": "A visualisation of correspondences of Raoul Hausmann",
 	"engines": {
-		"node": ">=24.4.0"
+		"node": ">=22.13.1"
 	},
 	"repository": {
 		"type": "git",
