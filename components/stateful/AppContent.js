@@ -1,22 +1,17 @@
-import { compose } from 'react-apollo';
-import AppContent from '../presentational/AppContent';
-import {
-	withDocumentSelecter,
-	withStorySelecter,
-	withSelectedDocumentId,
-	withDocument,
-	withSelectedStoryId,
-	withAppLoading,
-} from '../../lib/queryUtil';
+import React from 'react';
+import { useAppState } from '../../lib/AppStateContext';
+import AppContentComponent from '../presentational/AppContent';
 
-export default compose(
-	withAppLoading(),
-	withSelectedStoryId(),
-	withSelectedDocumentId(),
-	withDocument(({ documentLoading, ...props }) => ({
-		...props,
-		isLoading: documentLoading,
-	})),
-	withDocumentSelecter(),
-	withStorySelecter(),
-)(AppContent);
+const AppContent = () => {
+	const { appUi, selectedStoryId, selectedDocumentId } = useAppState();
+
+	return (
+		<AppContentComponent
+			isLoading={appUi.isLoading}
+			selectedStoryId={selectedStoryId}
+			selectedDocumentId={selectedDocumentId}
+		/>
+	);
+};
+
+export default AppContent;

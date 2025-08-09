@@ -1,8 +1,19 @@
-import { lifecycle } from 'recompose';
-import TimelineThumbnailSet from '../presentational/TimelineThumbnailSet';
+import React, { useState } from 'react';
+import { useAppState } from '../../lib/AppStateContext';
+import TimelineThumbnailSetComponent from '../presentational/TimelineThumbnailSet';
 
-export default lifecycle({
-	shouldComponentUpdate(nextProps) {
-		return (this.props.x !== nextProps.x) || (this.props.files === nextProps.files);
-	},
-})(TimelineThumbnailSet);
+const TimelineThumbnailSet = () => {
+	const [hoveredDocumentId, setHoveredDocumentId] = useState(null);
+	const { documents, selectedStoryId } = useAppState();
+
+	return (
+		<TimelineThumbnailSetComponent
+			documents={documents}
+			selectedStoryId={selectedStoryId}
+			hoveredDocumentId={hoveredDocumentId}
+			onDocumentHover={setHoveredDocumentId}
+		/>
+	);
+};
+
+export default TimelineThumbnailSet;

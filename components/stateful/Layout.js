@@ -1,9 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import { ThemeProvider } from '@emotion/react';
 import styled from '@emotion/styled';
+import PropTypes from 'prop-types';
+import React from 'react';
 import theme from '../../lib/theme';
-import ApolloProvider from '../../lib/apollo';
 
 const MainContainer = styled.div`
 	width: 100vw;
@@ -11,11 +10,9 @@ const MainContainer = styled.div`
 `;
 
 const Layout = ({ children }) => (
-	<ApolloProvider>
-		<ThemeProvider theme={theme}>
-			<MainContainer>{children}</MainContainer>
-		</ThemeProvider>
-	</ApolloProvider>
+	<ThemeProvider theme={theme}>
+		<MainContainer>{children}</MainContainer>
+	</ThemeProvider>
 );
 
 Layout.propTypes = {

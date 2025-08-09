@@ -1,89 +1,104 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-import {
-	Wrapper,
-	NavigatorWrapper,
-	TimelineContextWrapper,
-	ThumbnailsWrapper,
-	ActorsWrapper,
-	ConnectionsWrapper,
-	TimelineContent,
-	NavigatorGradient,
-} from './styles';
-import Navigator from '../TimelineNavigator';
-import TimelineContext from '../TimelineContext';
-import TimelineThumbnails from '../TimelineThumbnails';
+import React from 'react';
 import TimelineConnections from '../../stateful/TimelineConnections';
 import TimelineActorsList from '../TimelineActorsList';
+import TimelineContext from '../TimelineContext';
 import TimelineDocumentTooltip from '../TimelineDocumentTooltip';
+import Navigator from '../TimelineNavigator';
+import TimelineThumbnails from '../TimelineThumbnails';
+import {
+	ActorsWrapper,
+	ConnectionsWrapper,
+	NavigatorGradient,
+	NavigatorWrapper,
+	ThumbnailsWrapper,
+	TimelineContent,
+	TimelineContextWrapper,
+	Wrapper,
+} from './styles';
 
 const CONNECTIONS_END_POINT_WIDTH = 20;
 
-const Timeline = (props) => !props.documentsLoading && !props.actorsLoading ? (
-	<Wrapper>
-		<NavigatorWrapper>
-			{(!props.documentIsOpen || (props.documentIsOpen && !props.hasStory)) && (
-				<div>
-					<NavigatorGradient />
-					<Navigator
-						width="100%"
+const Timeline = (props) => {
+	const actors = props.actors || [];
+	return !props.documentsLoading && !props.actorsLoading ? (
+		<Wrapper>
+			<NavigatorWrapper>
+				{(!props.documentIsOpen ||
+					(props.documentIsOpen && !props.hasStory)) && (
+					<div>
+						<NavigatorGradient />
+						<Navigator
+							width="100%"
+							from={props.earliestDocumentYear}
+							to={props.latestDocumentYear}
+							range={props.visibleRange}
+							onRangeChange={props.setVisibleRange}
+						/>
+					</div>
+				)}
+			</NavigatorWrapper>
+
+			<TimelineContent
+				id="timeline-scroll-container"
+				innerRef={props.setTimelineContentRef}
+			>
+				<TimelineContextWrapper>
+					<TimelineContext
 						from={props.earliestDocumentYear}
 						to={props.latestDocumentYear}
-						range={props.visibleRange}
-						onRangeChange={props.setVisibleRange}
+						visibleRange={props.visibleRange}
 					/>
-				</div>
-			)}
-		</NavigatorWrapper>
+				</TimelineContextWrapper>
 
-		<TimelineContent id="timeline-scroll-container" innerRef={props.setTimelineContentRef}>
-			<TimelineContextWrapper>
-				<TimelineContext
-					from={props.earliestDocumentYear}
-					to={props.latestDocumentYear}
-					visibleRange={props.visibleRange}
-				/>
-			</TimelineContextWrapper>
+				<ThumbnailsWrapper>
+					<TimelineThumbnails
+						documents={props.documents}
+						visibleRange={props.visibleRange}
+					/>
+				</ThumbnailsWrapper>
 
-			<ThumbnailsWrapper>
-				<TimelineThumbnails documents={props.documents} visibleRange={props.visibleRange} />
-			</ThumbnailsWrapper>
+				<ConnectionsWrapper innerRef={props.setRoutesWrapperRef}>
+					<TimelineConnections
+						isOpen={props.documentIsOpen}
+						connections={props.connections}
+						visibleRange={props.visibleRange}
+						endPointWidth={CONNECTIONS_END_POINT_WIDTH}
+						endPointsTotalAmount={actors.length}
+						defaultColor="#BDBDBD"
+						onConnectionClick={props.selectDocument}
+						onConnectionMouseEnter={props.setHoveredDocument}
+						onConnectionMouseLeave={props.setHoveredDocument}
+						hoveredDocument={props.hoveredDocument}
+						windowWidth={props.windowWidth}
+						windowHeight={props.windowHeight}
+						onChartMove={({ visibleRange }) =>
+							props.setVisibleRange(visibleRange)
+						}
+					/>
+				</ConnectionsWrapper>
 
-			<ConnectionsWrapper innerRef={props.setRoutesWrapperRef}>
-				<TimelineConnections
-					isOpen={props.documentIsOpen}
-					connections={props.connections}
-					visibleRange={props.visibleRange}
-					endPointWidth={CONNECTIONS_END_POINT_WIDTH}
-					endPointsTotalAmount={props.actors.length}
-					defaultColor="#BDBDBD"
-					onConnectionClick={props.selectDocument}
-					onConnectionMouseEnter={props.setHoveredDocument}
-					onConnectionMouseLeave={props.setHoveredDocument}
-					hoveredDocument={props.hoveredDocument}
-					windowWidth={props.windowWidth}
-					windowHeight={props.windowHeight}
-					onChartMove={({ visibleRange }) => props.setVisibleRange(visibleRange)}
-				/>
-			</ConnectionsWrapper>
+				{!props.documentIsOpen && (
+					<ActorsWrapper>
+						<TimelineActorsList actors={props.actorsForDisplay || []} />
+					</ActorsWrapper>
+				)}
 
-			{!props.documentIsOpen && (
-				<ActorsWrapper>
-					<TimelineActorsList actors={props.actorsForDisplay} />
-				</ActorsWrapper>
-			)}
-
-			{props.hoveredDocument.id && (
-				<TimelineDocumentTooltip
-					{...props.documents.find(({ id }) => id === props.hoveredDocument.id)}
-					x={props.hoveredDocument.xPosition}
-					isVisible
-					showStoryInformations={false}
-				/>
-			)}
-		</TimelineContent>
-	</Wrapper>
-) : null;
+				{props.hoveredDocument?.id && props.documents && (
+					<TimelineDocumentTooltip
+						document={
+							props.documents.find(
+								({ id }) => id === props.hoveredDocument.id,
+							) || {}
+						}
+						x={props.hoveredDocument.xPosition}
+						y={props.windowHeight - 300}
+					/>
+				)}
+			</TimelineContent>
+		</Wrapper>
+	) : null;
+};
 
 Timeline.propTypes = {
 	documents: PropTypes.array.isRequired,

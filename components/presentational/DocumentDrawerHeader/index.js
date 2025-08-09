@@ -1,70 +1,43 @@
-import React from 'react';
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
-import { prop, pipe, not } from 'ramda';
-import { branch, renderNothing } from 'recompose';
+import React from 'react';
 import Icon from '../Icon';
-import { WrapperComponent, CloseButton, Switch, AnnotationToggler, SidebarToggler } from './styles';
 
-const shouldNotShowSwitch = pipe(prop('transcription'), not);
-const hideIfNoTranscription = branch(shouldNotShowSwitch, renderNothing);
-const SwitchIfTranscription = hideIfNoTranscription(Switch);
+const HeaderWrapper = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	border-bottom: 1px solid #eee;
+`;
 
-const DocumentDrawerHeader = ({
-	story,
-	deselectDocument,
-	deselectStory,
-	transcription,
-	showTranscript,
-	togglePreviewMode,
-	showAnnotations,
-	toggleAnnotationMode,
-	documentInformationsSidebarIsOpen,
-	toggleDocumentInformationsSidebar,
-}) => (
-	<WrapperComponent>
-		<CloseButton onClick={() => deselectDocument() && deselectStory()}>
-			<Icon type="close" />
-		</CloseButton>
-		<SwitchIfTranscription
-			transcription={transcription}
-			showTranscript={transcription && showTranscript}
-			options={['Original', 'Transkript']}
-			isLeft={!showTranscript}
-			onClick={togglePreviewMode}
-		/>
-		{Boolean(story) && (
-			<AnnotationToggler
-				iconActive="eye-opened"
-				iconInactive="eye-closed"
-				text="Markierungen"
-				isActive={showAnnotations}
-				onClick={toggleAnnotationMode}
-			/>
-		)}
-		<SidebarToggler
-			iconActive="sidebar-opened"
-			iconInactive="sidebar-closed"
-			text="Details"
-			isActive={documentInformationsSidebarIsOpen}
-			onClick={toggleDocumentInformationsSidebar}
-		/>
-	</WrapperComponent>
+const IconButton = styled.button`
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.5rem;
+
+	&:hover {
+		opacity: 0.8;
+	}
+`;
+
+const DocumentDrawerHeader = ({ isOpen, onToggle }) => (
+	<HeaderWrapper>
+		<IconButton onClick={onToggle}>
+			<Icon name={isOpen ? 'sidebar-opened' : 'sidebar-closed'} />
+		</IconButton>
+	</HeaderWrapper>
 );
 
 DocumentDrawerHeader.propTypes = {
-	deselectDocument: PropTypes.func.isRequired,
-	deselectStory: PropTypes.func.isRequired,
-	story: PropTypes.shape({
-		nextDocumentInStory: PropTypes.string.isRequired,
-		prevDocumentInStory: PropTypes.string.isRequired,
-	}),
-	transcription: PropTypes.string,
-	showTranscript: PropTypes.bool.isRequired,
-	togglePreviewMode: PropTypes.func.isRequired,
-	showAnnotations: PropTypes.bool.isRequired,
-	documentInformationsSidebarIsOpen: PropTypes.bool.isRequired,
-	toggleAnnotationMode: PropTypes.func.isRequired,
-	toggleDocumentInformationsSidebar: PropTypes.func.isRequired,
+	isOpen: PropTypes.bool,
+	onToggle: PropTypes.func,
+};
+
+DocumentDrawerHeader.defaultProps = {
+	isOpen: false,
+	onToggle: () => {},
 };
 
 export default DocumentDrawerHeader;

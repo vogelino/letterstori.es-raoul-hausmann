@@ -1,131 +1,81 @@
-import React from 'react';
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
-import Sticky from 'react-stickynode';
-import {
-	always,
-	filter,
-	pipe,
-	propEq,
-	prop,
-	and,
-	find,
-	path,
-	defaultTo,
-	has,
-	ifElse,
-	identity,
-} from 'ramda';
-import { compose, onlyUpdateForKeys } from 'recompose';
-import ImageLoader from '../../utilitary/ImageLoader';
+import React, { memo } from 'react';
+import DocumentCorrespondents from '../DocumentCorrespondents';
+import DocumentInformations from '../DocumentInformations';
+import DocumentQuote from '../DocumentQuote';
 import DocumentScans from '../DocumentScans';
-import DocumentContentsHeader from '../DocumentContentsHeader';
-import { Wrapper, Content } from './styles';
-import Transcription from '../DocumentTranscription';
+import DocumentTranscription from '../DocumentTranscription';
 
-const LazyDocumentScans = (props) => (
-	<ImageLoader {...props} src={props.largeUrl} component={DocumentScans} />
-);
-
-LazyDocumentScans.propTypes = {
-	largeUrl: DocumentScans.propTypes.largeUrl,
-};
-
-const shapeHasIndex = (index) =>
-	pipe(prop('shapes'), find(propEq('pageIndex', index)));
-
-const hasShapeWithIndex = (index) => and(has('shapes'), shapeHasIndex(index));
+const DocumentContentsWrapper = styled.div`
+	padding: 2rem;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+`;
 
 const DocumentContents = ({
-	files,
-	transcription,
-	showTranscript,
-	story,
-	showAnnotations,
-	hoverAnnotation,
+	document,
+	selectedStoryId,
+	selectedDocumentId,
 	hoveredAnnotationId,
-	documentInformationsSidebarIsOpen,
-	width,
-	height,
-}) => {
-	const storyElements = defaultTo([], path(['elements'], story));
-	const onlyAnnotations = filter(propEq('type', 'annotation'), storyElements);
-	return (
-		<Wrapper
-			documentInformationsSidebarIsOpen={documentInformationsSidebarIsOpen}
-		>
-			<Sticky top={48} innerZ={2}>
-				<DocumentContentsHeader />
-			</Sticky>
-			<Content>
-				{ifElse(
-					identity,
-					always(
-						<Transcription
-							storyColor={story && story.color}
-							transcription={transcription}
-							annotations={onlyAnnotations}
-							hoverAnnotation={hoverAnnotation}
-							hoveredAnnotationId={hoveredAnnotationId}
-							showAnnotations={showAnnotations}
-						/>,
-					),
-					always(
-						files.map((file, index) => (
-							<LazyDocumentScans
-								pageIndex={index}
-								annotations={filter(hasShapeWithIndex(index), onlyAnnotations)}
-								key={file}
-								documentWidth={width}
-								documentHeight={height}
-								largeUrl={`${process.env.NEXT_PUBLIC_IMAGES_SERVER_URL}/l/${file}`}
-								hoverAnnotation={hoverAnnotation}
-								hoveredAnnotationId={hoveredAnnotationId}
-								storyColor={story && story.color}
-								showAnnotations={showAnnotations}
-							/>
-						)),
-					),
-				)(showTranscript && transcription)}
-			</Content>
-		</Wrapper>
-	);
+	onAnnotationHover,
+	onAnnotationClick,
+	onScanClick,
+}) => (
+	<DocumentContentsWrapper>
+		<DocumentCorrespondents document={document} />
+		<DocumentQuote document={document} />
+		<DocumentInformations document={document} />
+		<DocumentTranscription
+			document={document}
+			selectedStoryId={selectedStoryId}
+			selectedDocumentId={selectedDocumentId}
+			hoveredAnnotationId={hoveredAnnotationId}
+			onAnnotationHover={onAnnotationHover}
+			onAnnotationClick={onAnnotationClick}
+		/>
+		<DocumentScans document={document} onScanClick={onScanClick} />
+	</DocumentContentsWrapper>
+);
+
+DocumentContents.propTypes = {
+	document: PropTypes.shape({
+		id: PropTypes.string,
+		title: PropTypes.string,
+		date: PropTypes.string,
+		type: PropTypes.string,
+		language: PropTypes.string,
+		scans: PropTypes.arrayOf(PropTypes.string),
+		transcription: PropTypes.string,
+		quote: PropTypes.string,
+		sender: PropTypes.shape({
+			id: PropTypes.string,
+			name: PropTypes.string,
+			image: PropTypes.string,
+		}),
+		recipient: PropTypes.shape({
+			id: PropTypes.string,
+			name: PropTypes.string,
+			image: PropTypes.string,
+		}),
+	}).isRequired,
+	selectedStoryId: PropTypes.string,
+	selectedDocumentId: PropTypes.string,
+	hoveredAnnotationId: PropTypes.string,
+	onAnnotationHover: PropTypes.func,
+	onAnnotationClick: PropTypes.func,
+	onScanClick: PropTypes.func,
 };
 
 DocumentContents.defaultProps = {
-	showAnnotations: false,
-	filesSmall: [],
-	filesLarge: [],
-	transcription: '',
+	selectedStoryId: null,
+	selectedDocumentId: null,
+	hoveredAnnotationId: null,
+	onAnnotationHover: () => {},
+	onAnnotationClick: () => {},
+	onScanClick: () => {},
 };
 
-DocumentContents.propTypes = {
-	files: PropTypes.arrayOf(PropTypes.string),
-	transcription: PropTypes.string,
-	showTranscript: PropTypes.bool.isRequired,
-	showAnnotations: PropTypes.bool.isRequired,
-	story: PropTypes.shape({
-		color: PropTypes.string.isRequired,
-		elements: PropTypes.arrayOf(
-			PropTypes.shape({
-				shapes: PropTypes.arrayOf(
-					PropTypes.shape({
-						pageIndex: PropTypes.number,
-						points: PropTypes.string,
-					}),
-				),
-			}),
-		),
-	}),
-	hoveredAnnotationId: PropTypes.string,
-	hoverAnnotation: PropTypes.func.isRequired,
-	documentInformationsSidebarIsOpen: PropTypes.bool.isRequired,
-};
-
-export default compose(
-	onlyUpdateForKeys([
-		'hoveredAnnotationId',
-		'showAnnotations',
-		'showTranscript',
-		'documentInformationsSidebarIsOpen',
-	]),
-)(DocumentContents);
+export default memo(DocumentContents);

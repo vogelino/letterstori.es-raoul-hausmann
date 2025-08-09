@@ -1,51 +1,44 @@
-import React from 'react';
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
-import { compose, withState, lifecycle } from 'recompose';
-import { TimelineDocumentTooltipWrapper } from './styles';
-import DocumentInformations from '../DocumentInformations';
+import React, { useEffect, useState } from 'react';
 
-const TimelineDocumentTooltip = (props) => (
-	<TimelineDocumentTooltipWrapper
-		style={{
-			opacity: props.isVisible && props.isMounted ? '1' : '0',
-			transform: props.isVisible && props.isMounted ? 'rotate(0)' : 'rotate(4deg)',
-			left: `${props.x + 10}px`,
-		}}
-	>
-		<DocumentInformations {...props} />
-	</TimelineDocumentTooltipWrapper>
-);
+const TooltipWrapper = styled.div`
+	position: absolute;
+	background: white;
+	padding: 1rem;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+	transform: translate(-50%, -100%);
+	top: ${({ y }) => y}px;
+	left: ${({ x }) => x}px;
+`;
 
-TimelineDocumentTooltip.defaultProps = {
-	isVisible: false,
-	x: 0,
-	y: 0,
+const TimelineDocumentTooltip = ({ document = {}, x, y }) => {
+	const [isVisible, setIsVisible] = useState(false);
+
+	useEffect(() => {
+		setIsVisible(true);
+		return () => setIsVisible(false);
+	}, []);
+
+	if (!isVisible || !document) return null;
+
+	return (
+		<TooltipWrapper x={x} y={y}>
+			<h3>{document.title || 'Untitled'}</h3>
+			<p>{document.date || 'No date'}</p>
+		</TooltipWrapper>
+	);
 };
 
 TimelineDocumentTooltip.propTypes = {
-	isVisible: PropTypes.bool,
-	isMounted: PropTypes.bool,
-	x: PropTypes.number,
-	date: PropTypes.string,
-	title: PropTypes.string.isRequired,
-	type: PropTypes.string.isRequired,
-	senders: DocumentInformations.propTypes.senders,
-	recipients: DocumentInformations.propTypes.recipients,
-	story: PropTypes.shape({
-		title: PropTypes.string.isRequired,
-		color: PropTypes.string.isRequired,
-	}),
+	document: PropTypes.shape({
+		title: PropTypes.string,
+		date: PropTypes.string,
+	}).isRequired,
+	x: PropTypes.number.isRequired,
+	y: PropTypes.number.isRequired,
 };
 
-export default compose(
-	withState('isMounted', 'setMountedState', false),
-	lifecycle({
-		componentDidMount() {
-			this.animationTimeout = setTimeout(() => this.props.setMountedState(true), 200);
-		},
-
-		componentWillUnmount() {
-			clearTimeout(this.animationTimeout);
-		},
-	}),
-)(TimelineDocumentTooltip);
+export default TimelineDocumentTooltip;

@@ -7,19 +7,18 @@ const Homepage = () => (
 		{GlobalStyles}
 		<article>
 			<p className="introduction-text">
-				<strong>LetterStori.es</strong> ist eine interaktive
-				Visualisierung, die Schriftverkehr (Briefe, Postkarten, etc.)
-				zwischen verschiedenen Akteuren in Beziehung stellt und in einen
-				historischen Kontext einordnet. Geschichten und thematische
-				Zusammenhänge, die sich über mehrere Dokumente hinweg in der
-				Sammlung verbergen, werden in kuratierten „Stories“
-				nachvollziehbar verknüpft und können so erst entdeckt und
-				verfolgt werden.
+				<strong>LetterStori.es</strong> ist eine interaktive Visualisierung, die
+				Schriftverkehr (Briefe, Postkarten, etc.) zwischen verschiedenen
+				Akteuren in Beziehung stellt und in einen historischen Kontext
+				einordnet. Geschichten und thematische Zusammenhänge, die sich über
+				mehrere Dokumente hinweg in der Sammlung verbergen, werden in
+				kuratierten „Stories“ nachvollziehbar verknüpft und können so erst
+				entdeckt und verfolgt werden.
 			</p>
 			<h2>LetterStori.es für Raoul Hausmann</h2>
 			<p>
-				Das erste LetterStori.es-Projekt entstand für den Dada-Künstler
-				Raoul Hausmann in Kooperation mit der{' '}
+				Das erste LetterStori.es-Projekt entstand für den Dada-Künstler Raoul
+				Hausmann in Kooperation mit der{' '}
 				<a
 					href="https://www.berlinischegalerie.de/home/"
 					target="_blank"
@@ -27,27 +26,25 @@ const Homepage = () => (
 				>
 					Berlinischen Galerie Berlin
 				</a>
-				, die dessen Nachlass verwaltet und erforscht. Raoul Hausmann
-				spielte eine wichtige Rolle in der Berliner Dada-Bewegung der
-				1920er Jahre. Er war bekannt für seinen liberalen Lebenswandel,
-				der im Vergleich mit anderen Zeitgenossen herausstach. Sowohl
-				sein Privatleben als auch sein künstlerisches Schaffen waren
-				geprägt von emotionalen Briefwechseln, die einen intimen
-				Einblick in seine wechselhaften Beziehungen geben. So erfährt
-				man einiges über Hausmanns Weltsicht und den Impetus seiner
+				, die dessen Nachlass verwaltet und erforscht. Raoul Hausmann spielte
+				eine wichtige Rolle in der Berliner Dada-Bewegung der 1920er Jahre. Er
+				war bekannt für seinen liberalen Lebenswandel, der im Vergleich mit
+				anderen Zeitgenossen herausstach. Sowohl sein Privatleben als auch sein
+				künstlerisches Schaffen waren geprägt von emotionalen Briefwechseln, die
+				einen intimen Einblick in seine wechselhaften Beziehungen geben. So
+				erfährt man einiges über Hausmanns Weltsicht und den Impetus seiner
 				kreativen Arbeit.
 			</p>
 			<h2>Die Herausforderung</h2>
 			<p>
-				Umfangreiche Datensätze wie den Nachlass von Raoul Hausmann sind
-				häufig in Archiven verborgen und für die Öffentlichkeit schwer
-				zugänglich. Die Herausforderung für LetterStori.es war somit
-				Zusammenhänge aufzuzeigen und Interesse für die Geschichten
-				hinter den Daten zu erwecken. Als Alternative zu klassischen
-				Lösungen, die über einen Suchschlitz und Ergebnislisten Zugang
-				gewähren, wählt LetterStori.es den Ansatz einer zeitbasierten
-				Netzwerkvisualisierung für die Darstellung der Daten. Diese
-				ermöglicht es ohne explizites Vorwissen in der Sammlung zu
+				Umfangreiche Datensätze wie den Nachlass von Raoul Hausmann sind häufig
+				in Archiven verborgen und für die Öffentlichkeit schwer zugänglich. Die
+				Herausforderung für LetterStori.es war somit Zusammenhänge aufzuzeigen
+				und Interesse für die Geschichten hinter den Daten zu erwecken. Als
+				Alternative zu klassischen Lösungen, die über einen Suchschlitz und
+				Ergebnislisten Zugang gewähren, wählt LetterStori.es den Ansatz einer
+				zeitbasierten Netzwerkvisualisierung für die Darstellung der Daten.
+				Diese ermöglicht es ohne explizites Vorwissen in der Sammlung zu
 				stöbern, frei zu explorieren und Neues entdecken zu können.
 			</p>
 			<h2>Das Ergebnis</h2>
@@ -64,23 +61,22 @@ const Homepage = () => (
 						</a>
 					</h3>
 					<p>
-						Das Gesamt-Konzept kann in einem interaktiven Prototyp
-						mit statischen Programmansichten getestet werden.
+						Das Gesamt-Konzept kann in einem interaktiven Prototyp mit
+						statischen Programmansichten getestet werden.
 					</p>
 				</div>
 				<div className="prototypes-link-column">
 					<h3>
-						<Link href="/correspondence">
-							<a>Web-Applikation öffnen</a>
+						<Link href="/correspondence" className="a">
+							Web-Applikation öffnen
 						</Link>
 					</h3>
 					<p>
-						Darüber hinaus ist eine Web-Applikation entstanden, die
-						ein Großteil des Konzepts umsetzt und Live-Daten
-						darstellt.
+						Darüber hinaus ist eine Web-Applikation entstanden, die ein Großteil
+						des Konzepts umsetzt und Live-Daten darstellt.
 						<br />
-						(Entwickelt und getestet ausschließlich mit Google
-						Chrome Version 70)
+						(Entwickelt und getestet ausschließlich mit Google Chrome Version
+						70)
 					</p>
 				</div>
 			</section>
@@ -94,11 +90,10 @@ const Homepage = () => (
 				>
 					Fachhochschule Potsdam
 				</a>{' '}
-				im Studiengang Interfacedesign. LetterStori.es fand seinen
-				Ursprung Anfang 2018 im Rahmen des Kurses „Active Archives“,
-				betreut von Prof. Dr. Frank Heidmann (Professor für Design of
-				Software Interfaces) und Katrin Glinka (Wissenschaftliche
-				Gesamtsteuerung{' '}
+				im Studiengang Interfacedesign. LetterStori.es fand seinen Ursprung
+				Anfang 2018 im Rahmen des Kurses „Active Archives“, betreut von Prof.
+				Dr. Frank Heidmann (Professor für Design of Software Interfaces) und
+				Katrin Glinka (Wissenschaftliche Gesamtsteuerung{' '}
 				<a
 					href="http://www.museum4punkt0.de/"
 					target="_blank"
@@ -114,9 +109,8 @@ const Homepage = () => (
 				>
 					Stiftung Preußischer Kulturbesitz
 				</a>
-				). Der Kurs beschäftigte sich mit der Entwicklung neuer Formate,
-				die Archive für die Öffentlichkeit erfahrbar und explorierbar
-				machen.
+				). Der Kurs beschäftigte sich mit der Entwicklung neuer Formate, die
+				Archive für die Öffentlichkeit erfahrbar und explorierbar machen.
 			</p>
 		</article>
 		<footer>

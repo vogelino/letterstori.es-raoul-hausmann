@@ -1,29 +1,14 @@
-import { compose } from 'react-apollo';
-import DocumentDrawerHeader from '../presentational/DocumentDrawerHeader';
-import {
-	withDocumentUnselecter,
-	withDocumentSelecter,
-	withStoryUnselecter,
-	withAnnotationsVisibility,
-	withAnnotationsVisibilityToggler,
-	withPreviewModeToggler,
-	withPreviewMode,
-	withDocumentInformationsSidebarToggler,
-	withDocumentInformationsSidebarState,
-} from '../../lib/queryUtil';
+import React from 'react';
+import { useAppState } from '../../lib/AppStateContext';
+import DocumentDrawerHeaderComponent from '../presentational/DocumentDrawerHeader';
 
-export default compose(
-	withDocumentInformationsSidebarToggler(),
-	withDocumentInformationsSidebarState(),
-	withAnnotationsVisibility(),
-	withAnnotationsVisibilityToggler(({ toggleAnnotationsVisibility }) => ({
-		toggleAnnotationMode: () => toggleAnnotationsVisibility(),
-	})),
-	withPreviewMode(({ previewMode }) => ({
-		showTranscript: previewMode === 'TRANSCRIPTION',
-	})),
-	withPreviewModeToggler(),
-	withDocumentUnselecter(),
-	withDocumentSelecter(),
-	withStoryUnselecter(),
-)(DocumentDrawerHeader);
+const DocumentDrawerHeader = () => {
+	const { documentInformationsSidebar } = useAppState();
+	return (
+		<DocumentDrawerHeaderComponent
+			isOpen={documentInformationsSidebar.isOpen}
+		/>
+	);
+};
+
+export default DocumentDrawerHeader;

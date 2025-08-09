@@ -1,29 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { compose } from 'recompose';
-import DocumentDrawerSplitView from '../presentational/DocumentDrawerSplitView';
-import LoadingSwitcher from '../utilitary/LoadingSwitcher';
-import DocumentStoryInformationsSkeleton from '../presentational/DocumentStoryInformationsSkeleton';
-import { withHoveredAnnotationIdSetter, withHoveredAnnotationId } from '../../lib/queryUtil';
+import { useAppState } from '../../lib/AppStateContext';
+import DocumentDrawerSplitViewComponent from '../presentational/DocumentDrawerSplitView';
 
-const DocumentDrawerSplitViewWithLoading = ({ isLoading, ...otherProps }) => (
-	<LoadingSwitcher
-		isLoading={isLoading || !otherProps.title}
-		nonLoadingComponent={DocumentDrawerSplitView}
-		loadingComponent={DocumentStoryInformationsSkeleton}
-		{...otherProps}
-	/>
-);
+const DocumentDrawerSplitView = () => {
+	const { documentInformationsSidebar } = useAppState();
 
-DocumentDrawerSplitViewWithLoading.defaultProps = {
-	isLoading: true,
+	return (
+		<DocumentDrawerSplitViewComponent
+			isOpen={documentInformationsSidebar.isOpen}
+		/>
+	);
 };
 
-DocumentDrawerSplitViewWithLoading.propTypes = {
-	isLoading: PropTypes.bool,
-};
-
-export default compose(
-	withHoveredAnnotationIdSetter(),
-	withHoveredAnnotationId(),
-)(DocumentDrawerSplitViewWithLoading);
+export default DocumentDrawerSplitView;

@@ -1,6 +1,6 @@
-import Layout from '../components/stateful/Layout';
-import AppHeader from '../components/stateful/AppHeader';
 import AppContent from '../components/stateful/AppContent';
+import AppHeader from '../components/stateful/AppHeader';
+import Layout from '../components/stateful/Layout';
 
 const App = () => (
 	<Layout>
