@@ -9,4 +9,12 @@ const App = () => (
 	</Layout>
 );
 
+// Force server-side rendering instead of static generation
+// This prevents build errors when data isn't available at build time
+export async function getServerSideProps() {
+	return {
+		props: {},
+	};
+}
+
 export default App;

@@ -7,7 +7,8 @@ const MIMIMUM_SPACE_BETWEEN_AB = 40;
 
 const getAWithConstraints = (a, b, rangeWidth, isMain) => {
 	if (a < 0) return 0;
-	const windowWidthMinusRange = subtract(window.innerWidth, rangeWidth);
+	const windowWidth = typeof window !== 'undefined' ? window.innerWidth : 1200;
+	const windowWidthMinusRange = subtract(windowWidth, rangeWidth);
 	if (isMain && a > windowWidthMinusRange) return windowWidthMinusRange;
 	const bMinusMinimum = subtract(b, MIMIMUM_SPACE_BETWEEN_AB);
 	if (a > bMinusMinimum) return bMinusMinimum;
@@ -15,7 +16,8 @@ const getAWithConstraints = (a, b, rangeWidth, isMain) => {
 };
 
 const getBWithConstraints = (a, b, rangeWidth, isMain) => {
-	if (b > window.innerWidth) return window.innerWidth;
+	const windowWidth = typeof window !== 'undefined' ? window.innerWidth : 1200;
+	if (b > windowWidth) return windowWidth;
 	if (isMain && b < rangeWidth) return rangeWidth;
 	const aPlusMinimum = add(a, MIMIMUM_SPACE_BETWEEN_AB);
 	if (b < aPlusMinimum) return aPlusMinimum;
@@ -52,12 +54,13 @@ class Navigator extends Component {
 
 		if (!updatedRange) return;
 
+		const windowWidth = typeof window !== 'undefined' ? window.innerWidth : 1200;
 		const range =
 			this.props.range < MIMIMUM_SPACE_BETWEEN_AB
 				? MIMIMUM_SPACE_BETWEEN_AB
 				: this.props.range;
 		const rangeWidthInPercent = subtract(range.b, range.a);
-		const rangeWidth = divide(multiply(window.innerWidth, rangeWidthInPercent), 100);
+		const rangeWidth = divide(multiply(windowWidth, rangeWidthInPercent), 100);
 		const isMain = equals(updatedRange, 'main');
 		const isLeft = equals(updatedRange, 'left');
 
@@ -73,28 +76,28 @@ class Navigator extends Component {
 			);
 
 			this.props.onRangeChange({
-				a: multiply(divide(newAWithContraints, window.innerWidth), 100),
-				b: multiply(divide(newBWithContraints, window.innerWidth), 100),
+				a: multiply(divide(newAWithContraints, windowWidth), 100),
+				b: multiply(divide(newBWithContraints, windowWidth), 100),
 			});
 		}
 		else if (isLeft) {
 			const newA = subtract(event.clientX, mouseX);
-			const bInPixels = multiply(divide(window.innerWidth, 100), range.b);
+			const bInPixels = multiply(divide(windowWidth, 100), range.b);
 			const newAWithContraints = getAWithConstraints(newA, bInPixels, rangeWidth);
 
 			this.props.onRangeChange({
-				a: multiply(divide(newAWithContraints, window.innerWidth), 100),
+				a: multiply(divide(newAWithContraints, windowWidth), 100),
 				b: range.b,
 			});
 		}
 		else {
 			const newB = subtract(event.clientX, mouseX);
-			const aInPixels = multiply(divide(window.innerWidth, 100), range.a);
+			const aInPixels = multiply(divide(windowWidth, 100), range.a);
 			const newBWithContraints = getBWithConstraints(aInPixels, newB, rangeWidth);
 
 			this.props.onRangeChange({
 				a: range.a,
-				b: multiply(divide(newBWithContraints, window.innerWidth), 100),
+				b: multiply(divide(newBWithContraints, windowWidth), 100),
 			});
 		}
 	}
@@ -122,6 +125,11 @@ class Navigator extends Component {
 			from: parseInt(this.props.from, 10),
 			to: parseInt(this.props.to, 10),
 		};
+
+		// Return null if from/to are invalid (e.g., during SSR without data)
+		if (!isFinite(parsedProps.from) || !isFinite(parsedProps.to) || parsedProps.from >= parsedProps.to) {
+			return null;
+		}
 
 		return (
 			<Wrapper rangeA={this.props.range.a} rangeB={this.props.range.b}>

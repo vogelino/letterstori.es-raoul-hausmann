@@ -40,7 +40,12 @@ const getMonthBasedScale = ({ from, to }) => ({
 });
 
 const getYearLabels = ({ from, to }) => {
-	const labelsWithoutPadding = times(identity, (to - from));
+	const range = to - from;
+	// Validate the range to prevent errors
+	if (!isFinite(range) || range < 0) {
+		return [];
+	}
+	const labelsWithoutPadding = times(identity, range);
 	return map(add(from), labelsWithoutPadding);
 };
 
@@ -65,9 +70,16 @@ const TimelineContext = ({
 	to,
 	visibleRange,
 }) => {
+	// Return null if from/to are invalid (e.g., during SSR without data)
+	if (!isFinite(from) || !isFinite(to) || from >= to) {
+		return null;
+	}
+
 	const monthBasedScale = getMonthBasedScale({ from, to });
 
-	const fittingMonthLabelsPerWindow = divide(window.innerWidth, MONTH_LABEL_WIDTH);
+	// Use a default window width for SSR, will be updated on client
+	const windowWidth = typeof window !== 'undefined' ? window.innerWidth : 1200;
+	const fittingMonthLabelsPerWindow = divide(windowWidth, MONTH_LABEL_WIDTH);
 	const monthInterval = getMonthInterval(
 		fittingMonthLabelsPerWindow,
 		getZoom(visibleRange),

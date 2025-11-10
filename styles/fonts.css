@@ -75,7 +75,7 @@
 			format('woff2'),
 		url('/fonts/merriweather/merriweather-blackitalic-webfont.woff')
 			format('woff');
-	font-weight: normal;
+	font-weight: 900;
 	font-style: italic;
 }
 
@@ -84,8 +84,8 @@
 	src: url('/fonts/merriweather/merriweather-bold-webfont.woff2')
 			format('woff2'),
 		url('/fonts/merriweather/merriweather-bold-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: bold, 700;
+	font-weight: 700;
+	font-style: normal;
 }
 
 @font-face {
@@ -94,8 +94,8 @@
 			format('woff2'),
 		url('/fonts/merriweather/merriweather-bolditalic-webfont.woff')
 			format('woff');
-	font-weight: italic;
-	font-style: bold, 700;
+	font-weight: 700;
+	font-style: italic;
 }
 
 @font-face {
@@ -103,7 +103,7 @@
 	src: url('/fonts/merriweather/merriweather-regular-webfont.woff2')
 			format('woff2'),
 		url('/fonts/merriweather/merriweather-regular-webfont.woff') format('woff');
-	font-weight: normal, 400;
+	font-weight: 400;
 	font-style: normal;
 }
 
@@ -112,7 +112,7 @@
 	src: url('/fonts/merriweather/merriweather-italic-webfont.woff2')
 			format('woff2'),
 		url('/fonts/merriweather/merriweather-italic-webfont.woff') format('woff');
-	font-weight: normal, 400;
+	font-weight: 400;
 	font-style: italic;
 }
 
@@ -121,7 +121,7 @@
 	src: url('/fonts/merriweather/merriweather-light-webfont.woff2')
 			format('woff2'),
 		url('/fonts/merriweather/merriweather-light-webfont.woff') format('woff');
-	font-weight: normal, 300;
+	font-weight: 300;
 	font-style: normal;
 }
 
@@ -131,6 +131,6 @@
 			format('woff2'),
 		url('/fonts/merriweather/merriweather-lightitalic-webfont.woff')
 			format('woff');
-	font-weight: normal, 300;
+	font-weight: 300;
 	font-style: italic;
 }

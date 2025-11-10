@@ -7,8 +7,29 @@ import LabelGroup from '../TimelineAxisLabelGroup';
 
 const getFontHeight = multiply(1.1);
 
-const getIntervalValues = (from, to, interval) =>
-	unfold((n) => (n > to ? false : [n, n + interval]), from);
+const getIntervalValues = (from, to, interval) => {
+	// Safety checks to prevent invalid array lengths
+	if (!interval || interval <= 0 || !isFinite(interval)) {
+		console.warn('Invalid interval:', interval);
+		return [];
+	}
+	if (!isFinite(from) || !isFinite(to)) {
+		console.warn('Invalid range:', from, to);
+		return [];
+	}
+	const range = to - from;
+	if (range <= 0) {
+		return [];
+	}
+	// Prevent creating arrays that are too large (max 10000 elements)
+	const maxElements = 10000;
+	const estimatedElements = Math.ceil(range / interval);
+	if (estimatedElements > maxElements) {
+		console.warn(`Too many elements (${estimatedElements}), limiting to ${maxElements}`);
+		return unfold((n) => (n > to ? false : [n, n + (range / maxElements)]), from);
+	}
+	return unfold((n) => (n > to ? false : [n, n + interval]), from);
+};
 
 const createScaleFn = (domainFrom, domainTo, rangeFrom, rangeTo) =>
 	scaleLinear()
